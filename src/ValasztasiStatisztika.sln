@@ -5,7 +5,9 @@ VisualStudioVersion = 16.0.31702.278
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LakossagStat.Console", "LakossagStat.Console\LakossagStat.Console.csproj", "{E6055DB5-D079-48A8-A2DF-C8C283B6F305}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LakossagStat.Data", "LakossagStat.Data\LakossagStat.Data.csproj", "{C5ED3B33-8D37-4F93-A79B-A1FA38E92B10}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LakossagStat.Data", "LakossagStat.Data\LakossagStat.Data.csproj", "{C5ED3B33-8D37-4F93-A79B-A1FA38E92B10}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LakossagStat.WebApp", "LakossagStat.WebApp\LakossagStat.WebApp.csproj", "{7A5537C4-7B2D-4CA6-AF40-7D8119864302}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{C5ED3B33-8D37-4F93-A79B-A1FA38E92B10}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C5ED3B33-8D37-4F93-A79B-A1FA38E92B10}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C5ED3B33-8D37-4F93-A79B-A1FA38E92B10}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7A5537C4-7B2D-4CA6-AF40-7D8119864302}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7A5537C4-7B2D-4CA6-AF40-7D8119864302}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7A5537C4-7B2D-4CA6-AF40-7D8119864302}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7A5537C4-7B2D-4CA6-AF40-7D8119864302}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

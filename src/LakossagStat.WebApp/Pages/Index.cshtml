@@ -1,0 +1,33 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Választás 2022 - Egységben Magyarországért";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Települések lakosság- és választópolgárszáma</h1>
+    <p>Töltsd le a teljes listát a 
+        <a href="https://www.valasztas.hu/telepulesek-lakossag-es-valasztopolgarszama" target="_blank">Választási Iroda oldaláról</a>, vagy 
+        <a href="/data/lakossag-data.json">JSON formátumban</a>.</p>
+    <p>
+        <br/>
+    </p>
+    <p>
+        <div>
+            <h4>Legnagyobb gyarapodás december óta</h4>
+            <h3>
+                +@TimedLoaderService.LakossagData.MaxIncrease?.Difference fő
+                (@TimedLoaderService.LakossagData.MaxIncrease?.Name @TimedLoaderService.LakossagData.MaxIncrease?.Index)
+            </h3>
+        </div>
+        <br/>
+        <div>
+            <h4>Legnagyobb csökkenés</h4>
+            <h3>
+                @TimedLoaderService.LakossagData.MaxDecrease?.Difference fő
+                        (@TimedLoaderService.LakossagData.MaxDecrease?.Name @TimedLoaderService.LakossagData.MaxDecrease?.Index)
+                    </h3>
+        </div>
+    </p>
+    <p><img src="images/leadimage.png" width="1025"/></p>
+</div>

@@ -348,3 +348,5 @@ MigrationBackup/
 
 # Ionide (cross platform F# VS Code tools) working folder
 .ionide/
+/src/LakossagStat.WebApp/wwwroot/data/lakossag-data.json
+/src/LakossagStat.WebApp/App_Data/Archive
