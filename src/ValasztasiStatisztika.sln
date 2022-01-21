@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31702.278
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LakossagStat.Console", "LakossagStat.Console\LakossagStat.Console.csproj", "{E6055DB5-D079-48A8-A2DF-C8C283B6F305}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LakossagStat.Data", "LakossagStat.Data\LakossagStat.Data.csproj", "{C5ED3B33-8D37-4F93-A79B-A1FA38E92B10}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E6055DB5-D079-48A8-A2DF-C8C283B6F305}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E6055DB5-D079-48A8-A2DF-C8C283B6F305}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E6055DB5-D079-48A8-A2DF-C8C283B6F305}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E6055DB5-D079-48A8-A2DF-C8C283B6F305}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C5ED3B33-8D37-4F93-A79B-A1FA38E92B10}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C5ED3B33-8D37-4F93-A79B-A1FA38E92B10}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C5ED3B33-8D37-4F93-A79B-A1FA38E92B10}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C5ED3B33-8D37-4F93-A79B-A1FA38E92B10}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {46314A71-BF13-44E7-B73F-A9881A3E0A21}
+	EndGlobalSection
+EndGlobal
