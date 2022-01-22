@@ -53,8 +53,26 @@
                 </h3>
             </div>
         </p>
-        <br/>
+        <br />
         <p>Legutóbbi frissítés: @DataStore.LastRefresh.ToString("yyyy-MM-dd hh:mm")</p>
     }
-        <p><img src="images/leadimage.png" /></p>
-    </div>
+    <br />
+    @if (!DataStore.IsEmpty)
+    {
+<p>
+    <h3>A december óta legtöbb új lakossal gyarapodó választókerületek</h3>
+    <br />
+    <table width="75%" class="align-content-center">
+        <thead>
+            <tr><th><h4>Választókerület</h4></th><th><h4>Növekedés</h4></th><th><h4>Százalék</h4></th></tr>
+        </thead>
+        @foreach (var item in DataStore.LakossagData.OevkItems.Where(oi => oi.Difference > 0).OrderByDescending(oi => oi.Difference).Take(20))
+        {
+            <tr><td class="text-left">@item.Name @item.Index</td><td>@item.Difference fő</td><td>@item.DifferencePercent.ToString("F1") %</td></tr>
+        }
+    </table>
+</p>
+    }
+    <br />
+    <p><img src="images/leadimage.png" width="75%"/></p>
+</div>
