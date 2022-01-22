@@ -9,7 +9,7 @@ env:
   CONFIGURATION: Release
   DOTNET_CORE_VERSION: 5.0.x
   WORKING_DIRECTORY: LakossagStat.WebApp
-  SOLUTION_NAME: ../ValasztasiStatisztika.sln
+  SOLUTION_NAME: src/ValasztasiStatisztika.sln
 jobs:
   build:
     runs-on: windows-latest
