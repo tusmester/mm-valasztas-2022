@@ -54,7 +54,7 @@
             </div>
         </p>
         <br />
-        <p>Legutóbbi frissítés: @DataStore.LastRefresh.ToString("yyyy-MM-dd hh:mm")</p>
+        <p>Legutóbbi frissítés: @DataStore.LastRefresh.ToCentralEuropean().ToString("yyyy-MM-dd HH:mm")</p>
     }
     <br />
     @if (!DataStore.IsEmpty)
