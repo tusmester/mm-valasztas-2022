@@ -6,28 +6,55 @@
 
 <div class="text-center">
     <h1 class="display-4">Települések lakosság- és választópolgárszáma</h1>
-    <p>Töltsd le a teljes listát a 
-        <a href="https://www.valasztas.hu/telepulesek-lakossag-es-valasztopolgarszama" target="_blank">Választási Iroda oldaláról</a>, vagy 
-        <a href="/data/lakossag-data.json">JSON formátumban</a>.</p>
-    <p>
+    @if (DataStore.IsEmpty)
+    {
+        <p><h2>Még nincsenek adatok, frissítsd az oldalt!</h2></p>
+        <p>
+            Töltsd le a teljes listát a
+            <a href="https://www.valasztas.hu/telepulesek-lakossag-es-valasztopolgarszama" target="_blank">Választási Iroda oldaláról</a>.
+        </p>
+    }
+    else
+    {
+        <p>
+            Töltsd le a teljes listát a
+            <a href="https://www.valasztas.hu/telepulesek-lakossag-es-valasztopolgarszama" target="_blank">Választási Iroda oldaláról</a>, vagy
+            <a href="/data/lakossag-data.json">JSON formátumban</a>.
+        </p>
+        <br />
+        <p>
+            <div>
+                <h5>Legnagyobb gyarapodás december óta</h5>
+                <h3>
+                    +@DataStore.LakossagData.MaxIncrease?.Difference fő
+                    (@DataStore.LakossagData.MaxIncrease?.Name @DataStore.LakossagData.MaxIncrease?.Index)
+                </h3>
+            </div>
+            <div>
+                <h5>Legnagyobb százalékos gyarapodás</h5>
+                <h3>
+                    +@DataStore.LakossagData.MaxIncreasePercent?.DifferencePercent.ToString("F") %
+                    (@DataStore.LakossagData.MaxIncreasePercent?.Name @DataStore.LakossagData.MaxIncreasePercent?.Index)
+                </h3>
+            </div>
+            <br />
+            <div>
+                <h5>Legnagyobb csökkenés</h5>
+                <h3>
+                    @DataStore.LakossagData.MaxDecrease?.Difference fő
+                    (@DataStore.LakossagData.MaxDecrease?.Name @DataStore.LakossagData.MaxDecrease?.Index)
+                </h3>
+            </div>
+            <div>
+                <h5>Legnagyobb csökkenés százalékosan</h5>
+                <h3>
+                    @DataStore.LakossagData.MaxDecreasePercent?.DifferencePercent.ToString("F") %
+                    (@DataStore.LakossagData.MaxDecreasePercent?.Name @DataStore.LakossagData.MaxDecreasePercent?.Index)
+                </h3>
+            </div>
+        </p>
         <br/>
-    </p>
-    <p>
-        <div>
-            <h4>Legnagyobb gyarapodás december óta</h4>
-            <h3>
-                +@TimedLoaderService.LakossagData.MaxIncrease?.Difference fő
-                (@TimedLoaderService.LakossagData.MaxIncrease?.Name @TimedLoaderService.LakossagData.MaxIncrease?.Index)
-            </h3>
-        </div>
-        <br/>
-        <div>
-            <h4>Legnagyobb csökkenés</h4>
-            <h3>
-                @TimedLoaderService.LakossagData.MaxDecrease?.Difference fő
-                        (@TimedLoaderService.LakossagData.MaxDecrease?.Name @TimedLoaderService.LakossagData.MaxDecrease?.Index)
-                    </h3>
-        </div>
-    </p>
-    <p><img src="images/leadimage.png" width="1025"/></p>
-</div>
+        <p>Legutóbbi frissítés: @DataStore.LastRefresh.ToString("yyyy-MM-dd hh:mm")</p>
+    }
+        <p><img src="images/leadimage.png" /></p>
+    </div>

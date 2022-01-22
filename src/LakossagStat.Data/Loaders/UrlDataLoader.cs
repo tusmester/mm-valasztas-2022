@@ -27,6 +27,8 @@ namespace LakossagStat.Data.Loaders
             var filePath = $"{fileParent}/lakossag-data-{DateTime.UtcNow:yyyy-MM-dd}.xls";
             if (!Directory.Exists(fileParent))
                 Directory.CreateDirectory(fileParent);
+            
+            //UNDONE: skip if the file already exists (overwrite flag in config)
 
             await using (var fs = new FileStream(filePath, FileMode.Create))
             {
