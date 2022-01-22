@@ -23,7 +23,7 @@ namespace LakossagStat.WebApp
             services.AddRazorPages();
             
             //UNDONE: configure logging
-            services.AddLogging(builder => builder.AddConsole());
+            //services.AddLogging(builder => builder.AddConsole());
 
             services.Configure<DataLoaderOptions>(options =>
             {
