@@ -8,7 +8,7 @@ env:
   AZURE_WEBAPP_PACKAGE_PATH: LakossagStat.WebApp\published
   CONFIGURATION: Release
   DOTNET_CORE_VERSION: 5.0.x
-  WORKING_DIRECTORY: LakossagStat.WebApp
+  WORKING_DIRECTORY: src/LakossagStat.WebApp
   SOLUTION_NAME: src/ValasztasiStatisztika.sln
 jobs:
   build:
