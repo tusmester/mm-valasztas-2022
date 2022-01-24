@@ -41,34 +41,37 @@
         </p>
         <br />
         <p>
-            <div>
-                <h5>Legnagyobb gyarapodás 2021. december óta</h5>
-                <h3>
-                    +@DataStore.LakossagData.MaxIncrease?.Difference fő
-                    (@DataStore.LakossagData.MaxIncrease?.Name @DataStore.LakossagData.MaxIncrease?.Index)
-                </h3>
-            </div>
-            <div>
-                <h5>Legnagyobb százalékos gyarapodás</h5>
-                <h3>
-                    +@DataStore.LakossagData.MaxIncreasePercent?.DifferencePercent.ToString("F") %
-                    (@DataStore.LakossagData.MaxIncreasePercent?.Name @DataStore.LakossagData.MaxIncreasePercent?.Index)
-                </h3>
-            </div>
-            <br />
-            <div>
-                <h5>Legnagyobb csökkenés</h5>
-                <h3>
-                    @DataStore.LakossagData.MaxDecrease?.Difference fő
-                    (@DataStore.LakossagData.MaxDecrease?.Name @DataStore.LakossagData.MaxDecrease?.Index)
-                </h3>
-            </div>
-            <div>
-                <h5>Legnagyobb csökkenés százalékosan</h5>
-                <h3>
-                    @DataStore.LakossagData.MaxDecreasePercent?.DifferencePercent.ToString("F") %
-                    (@DataStore.LakossagData.MaxDecreasePercent?.Name @DataStore.LakossagData.MaxDecreasePercent?.Index)
-                </h3>
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm">
+                        <h5>Legnagyobb gyarapodás 2021. december óta</h5>
+                        <h4>
+                            +@DataStore.LakossagData.MaxIncrease?.Difference fő
+                            (@DataStore.LakossagData.MaxIncrease?.Name @DataStore.LakossagData.MaxIncrease?.Index)
+                        </h4>
+                    </div>
+                    <div class="col-sm">
+                        <h5>Legnagyobb százalékos gyarapodás</h5>
+                        <h4>
+                            +@DataStore.LakossagData.MaxIncreasePercent?.DifferencePercent.ToString("F") %
+                            (@DataStore.LakossagData.MaxIncreasePercent?.Name @DataStore.LakossagData.MaxIncreasePercent?.Index)
+                        </h4>
+                    </div>
+                    <div class="col-sm">
+                        <h5>Legnagyobb csökkenés 2021. december óta</h5>
+                        <h4>
+                            @DataStore.LakossagData.MaxDecrease?.Difference fő
+                            (@DataStore.LakossagData.MaxDecrease?.Name @DataStore.LakossagData.MaxDecrease?.Index)
+                        </h4>
+                    </div>
+                    <div class="col-sm">
+                        <h5>Legnagyobb csökkenés százalékosan</h5>
+                        <h4>
+                            @DataStore.LakossagData.MaxDecreasePercent?.DifferencePercent.ToString("F") %
+                            (@DataStore.LakossagData.MaxDecreasePercent?.Name @DataStore.LakossagData.MaxDecreasePercent?.Index)
+                        </h4>
+                    </div>
+                </div>
             </div>
         </p>
         <br />
