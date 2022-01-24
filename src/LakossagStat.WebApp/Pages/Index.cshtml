@@ -6,9 +6,27 @@
 
 <div class="text-center">
     <h1 class="display-4">Települések lakosság- és választópolgárszáma</h1>
+    <br/>
+    <h5>
+        A 2022-es országgyűlési választáson fontos lesz látni, hogy mennyit változik az egyes választókerületekben
+        a bejelentett lakók száma. Ha egy településre túl sokan jelentkeznek be, az voksturizmusra utalhat.
+    </h5>
+    <h5>
+        Ez az oldal ennek nyomon követésében segít. Mivel a Választási Iroda december óta hetente közzéteszi,
+        hogy pontosan hányan vannak bejelentve kerületenként, a kirívó esetek könnyen észrevehetők.
+    </h5>
+    <h5>
+        Kiemeltük a december óta legtöbbet változott kerületeket, alul pedig a teljes lista böngészhető.
+    </h5>
     @if (DataStore.IsEmpty)
     {
-        <p><h2>Még nincsenek adatok, frissítsd az oldalt!</h2></p>
+        <script language="javascript">
+            setTimeout(function(){
+                window.location.reload();
+            }, 3000);
+        </script>
+        <p><h2>Még nincsenek adatok, kis türelmet kérek <img src="images/Spinner-1s-68px.gif"/></h2>
+            Ha sokáig nem történik semmi, kérlek frissítsd az oldalt!</p>
         <p>
             Töltsd le a teljes listát a
             <a href="https://www.valasztas.hu/telepulesek-lakossag-es-valasztopolgarszama" target="_blank">Választási Iroda oldaláról</a>.
@@ -18,13 +36,13 @@
     {
         <p>
             Töltsd le a teljes listát a
-            <a href="https://www.valasztas.hu/telepulesek-lakossag-es-valasztopolgarszama" target="_blank">Választási Iroda oldaláról</a>, vagy
+            <a href="https://www.valasztas.hu/telepulesek-lakossag-es-valasztopolgarszama" target="_blank">Választási Iroda oldaláról</a>, vagy innen 
             <a href="/data/lakossag-data.json">JSON formátumban</a>.
         </p>
         <br />
         <p>
             <div>
-                <h5>Legnagyobb gyarapodás december óta</h5>
+                <h5>Legnagyobb gyarapodás 2021. december óta</h5>
                 <h3>
                     +@DataStore.LakossagData.MaxIncrease?.Difference fő
                     (@DataStore.LakossagData.MaxIncrease?.Name @DataStore.LakossagData.MaxIncrease?.Index)
@@ -60,15 +78,15 @@
     @if (!DataStore.IsEmpty)
     {
 <p>
-    <h3>A december óta legtöbb új lakossal gyarapodó választókerületek</h3>
+    <h3>Az összes választókerület változása</h3>
     <br />
     <table width="75%" class="align-content-center">
         <thead>
-            <tr><th><h4>Választókerület</h4></th><th><h4>Növekedés</h4></th><th><h4>Százalék</h4></th></tr>
+            <tr><th><h4>Választókerület</h4></th><th><h4>Változás 2021. december óta</h4></th><th><h4>Százalék</h4></th></tr>
         </thead>
-        @foreach (var item in DataStore.LakossagData.OevkItems.Where(oi => oi.Difference > 0).OrderByDescending(oi => oi.Difference).Take(20))
+        @foreach (var item in DataStore.LakossagData.OevkItems.OrderByDescending(oi => oi.Difference))
         {
-            <tr><td class="text-left">@item.Name @item.Index</td><td>@item.Difference fő</td><td>@item.DifferencePercent.ToString("F1") %</td></tr>
+            <tr><td class="text-left">@item.Name @item.Index</td><td>@(item.Difference > 0 ? "+" : "")@item.Difference fő</td><td>@item.DifferencePercent.ToString("F1") %</td></tr>
         }
     </table>
 </p>
