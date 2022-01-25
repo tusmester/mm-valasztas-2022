@@ -5,19 +5,18 @@
 }
 
 <div class="text-center">
-    <h1 class="display-4">Települések lakosság- és választópolgárszáma</h1>
-    <br/>
-    <h5>
+    <h1 class="display-4">Voksturizmus-figyelő</h1>
+    <p class="main-block">
         A 2022-es országgyűlési választáson fontos lesz látni, hogy mennyit változik az egyes választókerületekben
         a bejelentett lakók száma. Ha egy településre túl sokan jelentkeznek be, az voksturizmusra utalhat.
-    </h5>
-    <h5>
+    </p>
+    <p class="main-block">
         Ez az oldal ennek nyomon követésében segít. Mivel a Választási Iroda december óta hetente közzéteszi,
         hogy pontosan hányan vannak bejelentve kerületenként, a kirívó esetek könnyen észrevehetők.
-    </h5>
-    <h5>
-        Kiemeltük a december óta legtöbbet változott kerületeket, alul pedig a teljes lista böngészhető.
-    </h5>
+    </p>
+    <p class="main-block">
+        Kiemeltük a december óta <strong>legtöbbet változott kerületeket</strong>, alul pedig a teljes lista böngészhető.
+    </p>
     @if (DataStore.IsEmpty)
     {
         <script language="javascript">
@@ -44,28 +43,32 @@
             <div class="container info-highlight">
                 <div class="row">
                     <div class="col-sm">
-                        <h5>Legnagyobb gyarapodás 2021. december óta</h5>
+                        @*<img src="images/chart-growth.png" alt="növekedés"/>*@
+                        <h5>Gyarapodás 2021. december óta</h5>
                         <h4 class="info-highlight">
                             +@DataStore.LakossagData.MaxIncrease?.Difference fő
                             (@DataStore.LakossagData.MaxIncrease?.Name @DataStore.LakossagData.MaxIncrease?.Index)
                         </h4>
                     </div>
                     <div class="col-sm">
-                        <h5>Legnagyobb százalékos gyarapodás</h5>
+                        @*<img src="images/percent.png" alt="növekedés százalékosan" />*@
+                        <h5>Százalékos gyarapodás december óta</h5>
                         <h4 class="info-highlight">
                             +@DataStore.LakossagData.MaxIncreasePercent?.DifferencePercent.ToString("F") %
                             (@DataStore.LakossagData.MaxIncreasePercent?.Name @DataStore.LakossagData.MaxIncreasePercent?.Index)
                         </h4>
                     </div>
                     <div class="col-sm">
-                        <h5>Legnagyobb csökkenés 2021. december óta</h5>
+                        @*<img src="images/chart-decrease.png" alt="csökkenés" />*@
+                        <h5>Csökkenés 2021. december óta</h5>
                         <h4 class="info-highlight">
                             @DataStore.LakossagData.MaxDecrease?.Difference fő
                             (@DataStore.LakossagData.MaxDecrease?.Name @DataStore.LakossagData.MaxDecrease?.Index)
                         </h4>
                     </div>
                     <div class="col-sm">
-                        <h5>Legnagyobb csökkenés százalékosan</h5>
+                        @*<img src="images/percent.png" alt="csökkenés százalékosan" />*@
+                        <h5>Százalékos csökkenés december óta</h5>
                         <h4 class="info-highlight">
                             @DataStore.LakossagData.MaxDecreasePercent?.DifferencePercent.ToString("F") %
                             (@DataStore.LakossagData.MaxDecreasePercent?.Name @DataStore.LakossagData.MaxDecreasePercent?.Index)
@@ -83,15 +86,27 @@
 <p>
     <h3>Az összes választókerület változása</h3>
     <br />
-    <table width="75%" class="align-content-center">
-        <thead>
-            <tr><th><h4>Választókerület</h4></th><th><h4>Változás 2021. december óta</h4></th><th><h4>Százalék</h4></th></tr>
-        </thead>
+    <div class="container">
+        <div class="row table-header">
+            <div class="col-sm"></div>
+            <div class="col-4 text-left"><h4>Választókerület</h4></div>
+            <div class="col-3"><h4>Változás 2021. december óta</h4></div>
+            <div class="col-2"><h4>Százalék</h4></div>
+            <div class="col-sm"></div>
+        </div>
+
         @foreach (var item in DataStore.LakossagData.OevkItems.OrderByDescending(oi => oi.Difference))
         {
-            <tr><td class="text-left">@item.Name @item.Index</td><td>@(item.Difference > 0 ? "+" : "")@item.Difference fő</td><td>@item.DifferencePercent.ToString("F1") %</td></tr>
+            <div class="row table-text">
+                <div class="col-sm"></div>
+                <div class="col-4 text-left">@item.Name @item.Index</div>
+                <div class="col-3 text-center">@(item.Difference > 0 ? "+" : "")@item.Difference fő</div>
+                <div class="col-2">@item.DifferencePercent.ToString("F1") %</div>
+                <div class="col-sm"></div>
+            </div>
         }
-    </table>
+    </div>
+
 </p>
     }
     <br />

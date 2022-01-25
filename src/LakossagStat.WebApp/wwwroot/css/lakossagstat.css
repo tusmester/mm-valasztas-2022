@@ -8,3 +8,24 @@
 h4.info-highlight {
     color: white;
 }
+
+h1.display-4 {
+    color: white;
+    background-color: #152248;
+    padding: 20px;
+}
+
+.main-block {
+    font-size: x-large;
+}
+
+.table-header {
+    color: white;
+    background-color: #152248;
+    font-size: x-large;
+    padding: 4px;
+}
+
+.table-text {
+    font-size: large;
+}
