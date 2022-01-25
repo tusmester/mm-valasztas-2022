@@ -14,6 +14,7 @@ namespace LakossagStat.Data.Loaders
     public class DataLoaderOptions
     {
         public string Path { get; set; }
+        public bool OverwriteLocalFile { get; set; }
     }
     
     public abstract class DataLoaderBase : IDataLoader
@@ -31,12 +32,27 @@ namespace LakossagStat.Data.Loaders
         {
             var ld = new LakossagData();
 
-            ReadHeader(reader, ld);
+            try
+            {
+                ReadHeader(reader, ld);
+            }
+            catch (Exception ex)
+            {
+                Logger.LogError($"Error parsing XLS header: {ex.Message}", ex);
+                return ld;
+            }
 
-            // next sheet
-            reader.NextResult();
+            try
+            {
+                // next sheet
+                reader.NextResult();
 
-            ReadData(reader, ld);
+                ReadData(reader, ld);
+            }
+            catch (Exception ex)
+            {
+                Logger.LogError($"Error parsing XLS data from the second sheet: {ex.Message}", ex);
+            }
             
             return ld;
         }
@@ -86,8 +102,6 @@ namespace LakossagStat.Data.Loaders
                 }
 
                 oevkDataItems.Add(od);
-
-                //Console.WriteLine($"{od.Name} {od.Index}    " + string.Join(", ", od));
             }
 
             ld.AllItems = oevkDataAll;

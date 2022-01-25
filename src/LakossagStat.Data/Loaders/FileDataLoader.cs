@@ -30,10 +30,19 @@ namespace LakossagStat.Data.Loaders
             //UNDONE: can we call this in an upper layer once?
             Encoding.RegisterProvider(CodePagesEncodingProvider.Instance);
 
-            await using var stream = File.Open(path, FileMode.Open, FileAccess.Read);
-            using var reader = ExcelReaderFactory.CreateReader(stream);
+            try
+            {
+                await using var stream = File.Open(path, FileMode.Open, FileAccess.Read);
+                using var reader = ExcelReaderFactory.CreateReader(stream);
 
-            return Load(reader);
+                return Load(reader);
+            }
+            catch (Exception ex)
+            {
+                Logger.LogError($"Error loading XLS file {path}: {ex.Message}", ex);
+            }
+
+            return null;
         }
     }
 }

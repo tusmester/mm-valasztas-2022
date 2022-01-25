@@ -14,18 +14,22 @@ namespace LakossagStat.Console
         {
             //var path = "./lakossag.xls";
             var path = "https://www.valasztas.hu/telepulesek-lakossag-es-valasztopolgarszama";
-            var options = new DataLoaderOptions { Path = path };
+            var options = new DataLoaderOptions
+            {
+                Path = path,
+                OverwriteLocalFile = true
+            };
 
             //var loader = new FileDataLoader(Options.Create(options), NullLoggerFactory.Instance.CreateLogger<FileDataLoader>());
             //var loader = new UrlDataLoader(Options.Create(options), NullLoggerFactory.Instance.CreateLogger<UrlDataLoader>());
-            var loader = new HtmlDataLoader(Options.Create(options), NullLoggerFactory.Instance.CreateLogger<HtmlDataLoader>());
+            //var loader = new HtmlDataLoader(Options.Create(options), NullLoggerFactory.Instance.CreateLogger<HtmlDataLoader>());
 
-            var data = await loader.LoadAsync();
-            var analyzer = new DataAnalyzer(data);
+            //var data = await loader.LoadAsync();
+            //var analyzer = new DataAnalyzer(data);
 
-            analyzer.Analyze();
+            //analyzer.Analyze();
 
-            var json = JsonConvert.SerializeObject(data);
+            //var json = JsonConvert.SerializeObject(data);
         }
     }
 }

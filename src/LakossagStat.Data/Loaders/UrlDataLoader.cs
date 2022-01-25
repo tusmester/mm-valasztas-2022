@@ -9,9 +9,17 @@ namespace LakossagStat.Data.Loaders
 {
     public class UrlDataLoader : FileDataLoader
     {
-        public UrlDataLoader(IOptions<DataLoaderOptions> options, ILogger<UrlDataLoader> logger) :
+        const string DownloadFileParent = "./App_Data/Archive";
+        protected string DownloadFilePath => $"{DownloadFileParent}/lakossag-data-{DateTime.UtcNow:yyyy-MM-dd}.xls";
+
+        private readonly IHttpClientFactory _httpClientFactory;
+
+        public UrlDataLoader(IHttpClientFactory httpClientFactory, IOptions<DataLoaderOptions> options,
+            ILogger<UrlDataLoader> logger) :
             base(options, logger)
-        { }
+        {
+            _httpClientFactory = httpClientFactory;
+        }
 
         public override Task<LakossagData> LoadAsync()
         {
@@ -20,19 +28,39 @@ namespace LakossagStat.Data.Loaders
 
         protected async Task<LakossagData> LoadFromUrlAsync(string url)
         {
-            var uri = new Uri(url);
-            var client = new HttpClient();
-            var response = await client.GetAsync(uri);
-            const string fileParent = "./App_Data/Archive";
-            var filePath = $"{fileParent}/lakossag-data-{DateTime.UtcNow:yyyy-MM-dd}.xls";
-            if (!Directory.Exists(fileParent))
-                Directory.CreateDirectory(fileParent);
-            
-            //UNDONE: skip if the file already exists (overwrite flag in config)
-
-            await using (var fs = new FileStream(filePath, FileMode.Create))
+            // if the file for today already exists, use that
+            var filePath = DownloadFilePath;
+            if (File.Exists(filePath) && !Options.OverwriteLocalFile)
             {
+                Logger.LogInformation("Local XLS file already exists, loading data from there.");
+
+                return await LoadFromFileAsync(filePath).ConfigureAwait(false);
+            }
+
+            try
+            {
+                Logger.LogTrace($"Loading XLS file from {url}");
+
+                var uri = new Uri(url);
+                var client = _httpClientFactory.CreateClient(nameof(UrlDataLoader));
+                var response = await client.GetAsync(uri);
+
+                if (!Directory.Exists(DownloadFileParent))
+                {
+                    Logger.LogTrace($"Creating local folder {DownloadFileParent}");
+                    Directory.CreateDirectory(DownloadFileParent);
+                }
+
+                Logger.LogTrace($"Creating local file {filePath}");
+
+                await using var fs = new FileStream(filePath, FileMode.Create);
                 await response.Content.CopyToAsync(fs);
+            }
+            catch (Exception ex)
+            {
+                Logger.LogWarning(ex, $"Error during saving XLS file " +
+                                     $"from the url {url} to the file system: {ex.Message}. " +
+                                     $"Loading from local file if it exists.");
             }
 
             return await LoadFromFileAsync(filePath);

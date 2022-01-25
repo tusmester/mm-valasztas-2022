@@ -22,6 +22,9 @@ namespace LakossagStat.WebApp
         {
             services.AddRazorPages();
 
+            // required by the loader services below
+            services.AddHttpClient();
+
             services.Configure<DataLoaderOptions>(options =>
             {
                 options.Path = "https://www.valasztas.hu/telepulesek-lakossag-es-valasztopolgarszama";

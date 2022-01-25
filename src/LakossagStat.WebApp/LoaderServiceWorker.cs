@@ -38,26 +38,52 @@ namespace LakossagStat.WebApp
                 // if refresh already happened on another thread
                 if (DataStore.LastRefresh > DateTime.UtcNow.AddHours(-RefreshPeriodHours))
                     return;
-                
-                if (!Directory.Exists(ParentPath))
-                    Directory.CreateDirectory(ParentPath);
+
+                try
+                {
+                    if (!Directory.Exists(ParentPath))
+                        Directory.CreateDirectory(ParentPath);
+                }
+                catch (Exception ex)
+                {
+                    _logger.LogError($"Error accessing or creating folder {ParentPath}: {ex.Message}", ex);
+                    return;
+                }
                 
                 _logger.LogInformation("Loader Service is working.");
 
-                var data = _loader.LoadAsync().GetAwaiter().GetResult();
+                LakossagData data;
 
-                _logger.LogTrace("Data loaded. Analyzing...");
+                try
+                {
+                    data = _loader.LoadAsync().GetAwaiter().GetResult() ?? new LakossagData();
 
-                var analyzer = new DataAnalyzer(data);
-                analyzer.Analyze();
+                    _logger.LogTrace("Data loaded. Analyzing...");
 
-                DataStore.LakossagData = data;
+                    var analyzer = new DataAnalyzer(data);
+                    analyzer.Analyze();
+
+                    DataStore.LakossagData = data;
+                }
+                catch (Exception ex)
+                {
+                    _logger.LogError($"Error loading or analyzing data: {ex.Message}", ex);
+                    return;
+                }
 
                 _logger.LogTrace("Serializing data to json...");
 
-                var json = JsonConvert.SerializeObject(data, Formatting.Indented);
+                try
+                {
+                    var json = JsonConvert.SerializeObject(data, Formatting.Indented);
 
-                File.WriteAllText(FilePath, json, Encoding.UTF8);
+                    File.WriteAllText(FilePath, json, Encoding.UTF8);
+                }
+                catch (Exception ex)
+                {
+                    _logger.LogError($"Error serializing or saving json data to {FilePath}: {ex.Message}", ex);
+                    return;
+                }
 
                 _logger.LogInformation("Loader Service updated the data file.");
 
