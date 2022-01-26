@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><style data-merge-styles="true"></style>
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Választás 2022 - Egységben Magyarországért</title>
+    <link rel="stylesheet" href="./index_files/bootstrap.min.css">
+    <link rel="stylesheet" href="./index_files/site.css">
+    <link rel="stylesheet" href="./index_files/lakossagstat.css">
+</head>
+<body>
+    <header>
+        <!-- <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3">
+            <div class="container">
+                <a class="navbar-brand" href="https://localhost:5001/">Főoldal</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target=".navbar-collapse" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="navbar-collapse collapse d-sm-inline-flex justify-content-between">
+                    <ul class="navbar-nav flex-grow-1">
+                    </ul>
+                </div>
+            </div>
+        </nav> -->
+    </header>
+    <div class="container">
+        <main role="main" class="pb-3">
+            
+<div class="text-center">
+    <h1 class="display-4">Voksturizmus-figyelő</h1>
+    <p class="main-block">
+        A Fidesz novemberben sunyi módon, egy salátatörvénybe rejtve lényegében legalizálta a voksturizmust. 
+        Ezzel egy-egy lakásba tömegesen jelentkezhetnek be olyanok, akik ténylegesen nem is az adott választókerületben 
+        élnek, ezzel befolyásolva a választás eredményét. 
+    </p>
+    <p class="main-block">
+        Szél Bernadett és Szabó Szabolcs országgyűlési képviselők azonban elérték, hogy a Nemzeti Választási Iroda 
+        egészen a választás napjáig, hetente, települési bontásban hozza nyilvánosságra a névjegyzéki adatokat. 
+        Ha egy településre túl sokan jelentkeznek be, az voksturizmusra utalhat. 
+    </p>
+    <p class="main-block">
+        A választókerületek és települések lakosságszámának figyelésével segíthetjük megőrizni a választás tisztaságát, 
+        és le tudjuk buktatni azokat, akik fiktív lakcímeket hoznak létre csak azért, hogy olyanok is szavazhassanak, 
+        akik soha nem is jártak a környéken. Ez az oldal ennek nyomon követésében segít. 
+    </p>
+    <p class="main-other-info">
+        Kiemeltük a december óta <strong>legtöbbet változott kerületeket</strong>, alul pedig a teljes lista böngészhető.
+        Töltsd le a teljes listát a
+        <a href="https://www.valasztas.hu/telepulesek-lakossag-es-valasztopolgarszama" target="_blank">Választási Iroda oldaláról</a>, 
+        vagy innen <a href="/data/lakossag-data.json">JSON formátumban</a>.
+    </p>
+        <br>
+        <p>
+            </p><div class="container info-highlight">
+                <div class="row">
+                    <div class="col-sm">
+                        <h5>Legnagyobb gyarapodás 2021. december óta</h5>
+                        <h4 class="info-highlight">
+                            +<span id="max-increase-abs"></span> fő
+                            (Pest 02)
+                        </h4>
+                    </div>
+                    <div class="col-sm">
+                        <h5>Legnagyobb százalékos gyarapodás december óta</h5>
+                        <h4 class="info-highlight">
+                            +<span id="max-increase-perc"></span> %
+                            (Pest 02)
+                        </h4>
+                    </div>
+                    <div class="col-sm">
+                        <h5>Legnagyobb csökkenés 2021. december óta</h5>
+                        <h4 class="info-highlight">
+                            <span id="max-decrease-abs"></span> fő
+                            (Heves 02)
+                        </h4>
+                    </div>
+                    <div class="col-sm">
+                        <h5>Legnagyobb százalékos csökkenés december óta</h5>
+                        <h4 class="info-highlight">
+                            <span id="max-decrease-perc"></span> %
+                            (Budapest 05)
+                        </h4>
+                    </div>
+                </div>
+            </div>
+        <p></p>
+        <br>
+        <p>Legutóbbi frissítés: <span id="stat-refresh-time"></span></p>
+    <br>
+<p>
+    </p><h3>Az összes választókerület változása</h3>
+    <br>
+    <div class="container" id="oevk-table">       
+            
+    </div>
+
+<p></p>
+    <br>
+    <p><img src="./index_files/leadimage.png" width="75%"></p>
+</div>
+
+        </main>
+    </div>
+
+    <footer class="border-top footer text-muted">
+        <div class="container">
+            © 2022 - Választási statisztika - Egységben Magyarországért! 
+        </div>
+    </footer>
+
+    <script src="./index_files/jquery.min.js.download"></script>
+    <script src="./index_files/bootstrap.bundle.min.js.download"></script>
+    <script src="./index_files/site.js.download"></script>
+    <script src="./index_files/app.js"></script>
+
+
+</body>
+</html>

@@ -1,0 +1,1876 @@
+﻿{
+  "Date": "2022-01-26T14:59:50",
+  "AllItems": [],
+  "OevkItems": [
+    {
+      "Name": "Budapest",
+      "Index": "01",
+      "Town": null,
+      "Items": [
+        60096,
+        60060,
+        60023,
+        60008,
+        59972,
+        59979,
+        59947,
+        59932
+      ],
+      "Difference": -164,
+      "DifferencePercent": -0.27289669861554844
+    },
+    {
+      "Name": "Budapest",
+      "Index": "02",
+      "Town": null,
+      "Items": [
+        66944,
+        66940,
+        66928,
+        66929,
+        66903,
+        66898,
+        66905,
+        66892
+      ],
+      "Difference": -52,
+      "DifferencePercent": -0.07767686424474188
+    },
+    {
+      "Name": "Budapest",
+      "Index": "03",
+      "Town": null,
+      "Items": [
+        64556,
+        64539,
+        64487,
+        64482,
+        64495,
+        64495,
+        64477,
+        64469
+      ],
+      "Difference": -87,
+      "DifferencePercent": -0.13476671417064254
+    },
+    {
+      "Name": "Budapest",
+      "Index": "04",
+      "Town": null,
+      "Items": [
+        71283,
+        71287,
+        71261,
+        71259,
+        71264,
+        71262,
+        71279,
+        71285
+      ],
+      "Difference": 2,
+      "DifferencePercent": 0.0028057180533928145
+    },
+    {
+      "Name": "Budapest",
+      "Index": "05",
+      "Town": null,
+      "Items": [
+        59464,
+        59433,
+        59394,
+        59359,
+        59276,
+        59228,
+        59209,
+        59203
+      ],
+      "Difference": -261,
+      "DifferencePercent": -0.43892102784878245
+    },
+    {
+      "Name": "Budapest",
+      "Index": "06",
+      "Town": null,
+      "Items": [
+        68711,
+        68674,
+        68654,
+        68642,
+        68632,
+        68585,
+        68549,
+        68535
+      ],
+      "Difference": -176,
+      "DifferencePercent": -0.25614530424531734
+    },
+    {
+      "Name": "Budapest",
+      "Index": "07",
+      "Town": null,
+      "Items": [
+        79476,
+        79493,
+        79454,
+        79422,
+        79440,
+        79447,
+        79392,
+        79401
+      ],
+      "Difference": -75,
+      "DifferencePercent": -0.09436811112788766
+    },
+    {
+      "Name": "Budapest",
+      "Index": "08",
+      "Town": null,
+      "Items": [
+        75144,
+        75115,
+        75062,
+        75052,
+        75058,
+        75023,
+        74997,
+        74961
+      ],
+      "Difference": -183,
+      "DifferencePercent": -0.24353241775790482
+    },
+    {
+      "Name": "Budapest",
+      "Index": "09",
+      "Town": null,
+      "Items": [
+        72561,
+        72526,
+        72479,
+        72456,
+        72459,
+        72417,
+        72348,
+        72328
+      ],
+      "Difference": -233,
+      "DifferencePercent": -0.321109135761635
+    },
+    {
+      "Name": "Budapest",
+      "Index": "10",
+      "Town": null,
+      "Items": [
+        70006,
+        69991,
+        69959,
+        69944,
+        69915,
+        69906,
+        69858,
+        69858
+      ],
+      "Difference": -148,
+      "DifferencePercent": -0.21141045053281146
+    },
+    {
+      "Name": "Budapest",
+      "Index": "11",
+      "Town": null,
+      "Items": [
+        74771,
+        74762,
+        74741,
+        74757,
+        74769,
+        74733,
+        74716,
+        74714
+      ],
+      "Difference": -57,
+      "DifferencePercent": -0.07623276403953404
+    },
+    {
+      "Name": "Budapest",
+      "Index": "12",
+      "Town": null,
+      "Items": [
+        72301,
+        72278,
+        72237,
+        72227,
+        72217,
+        72197,
+        72162,
+        72158
+      ],
+      "Difference": -143,
+      "DifferencePercent": -0.19778426301157662
+    },
+    {
+      "Name": "Budapest",
+      "Index": "13",
+      "Town": null,
+      "Items": [
+        68986,
+        68991,
+        68966,
+        68972,
+        69000,
+        68994,
+        68969,
+        68944
+      ],
+      "Difference": -42,
+      "DifferencePercent": -0.060881918070333114
+    },
+    {
+      "Name": "Budapest",
+      "Index": "14",
+      "Town": null,
+      "Items": [
+        74486,
+        74472,
+        74485,
+        74471,
+        74462,
+        74447,
+        74413,
+        74407
+      ],
+      "Difference": -79,
+      "DifferencePercent": -0.10606019923207045
+    },
+    {
+      "Name": "Budapest",
+      "Index": "15",
+      "Town": null,
+      "Items": [
+        78267,
+        78259,
+        78242,
+        78243,
+        78262,
+        78249,
+        78206,
+        78199
+      ],
+      "Difference": -68,
+      "DifferencePercent": -0.0868820831257107
+    },
+    {
+      "Name": "Budapest",
+      "Index": "16",
+      "Town": null,
+      "Items": [
+        69869,
+        69829,
+        69797,
+        69744,
+        69717,
+        69704,
+        69687,
+        69661
+      ],
+      "Difference": -208,
+      "DifferencePercent": -0.29769998139375115
+    },
+    {
+      "Name": "Budapest",
+      "Index": "17",
+      "Town": null,
+      "Items": [
+        74879,
+        74853,
+        74819,
+        74812,
+        74803,
+        74744,
+        74705,
+        74708
+      ],
+      "Difference": -171,
+      "DifferencePercent": -0.22836843440751078
+    },
+    {
+      "Name": "Budapest",
+      "Index": "18",
+      "Town": null,
+      "Items": [
+        77102,
+        77135,
+        77161,
+        77166,
+        77165,
+        77161,
+        77159,
+        77163
+      ],
+      "Difference": 61,
+      "DifferencePercent": 0.07911597623926746
+    },
+    {
+      "Name": "Baranya",
+      "Index": "01",
+      "Town": null,
+      "Items": [
+        74819,
+        74767,
+        74730,
+        74723,
+        74709,
+        74689,
+        74662,
+        74634
+      ],
+      "Difference": -185,
+      "DifferencePercent": -0.24726339566152983
+    },
+    {
+      "Name": "Baranya",
+      "Index": "02",
+      "Town": null,
+      "Items": [
+        76989,
+        76968,
+        76949,
+        76932,
+        76910,
+        76886,
+        76849,
+        76821
+      ],
+      "Difference": -168,
+      "DifferencePercent": -0.21821299146631337
+    },
+    {
+      "Name": "Baranya",
+      "Index": "03",
+      "Town": null,
+      "Items": [
+        71116,
+        71095,
+        71066,
+        71069,
+        71036,
+        71003,
+        70981,
+        70958
+      ],
+      "Difference": -158,
+      "DifferencePercent": -0.2221722256594859
+    },
+    {
+      "Name": "Baranya",
+      "Index": "04",
+      "Town": null,
+      "Items": [
+        76185,
+        76157,
+        76123,
+        76109,
+        76072,
+        76060,
+        76048,
+        76040
+      ],
+      "Difference": -145,
+      "DifferencePercent": -0.19032617969416551
+    },
+    {
+      "Name": "Bács-Kiskun",
+      "Index": "01",
+      "Town": null,
+      "Items": [
+        69307,
+        69273,
+        69249,
+        69267,
+        69250,
+        69238,
+        69237,
+        69233
+      ],
+      "Difference": -74,
+      "DifferencePercent": -0.10677132180010677
+    },
+    {
+      "Name": "Bács-Kiskun",
+      "Index": "02",
+      "Town": null,
+      "Items": [
+        72080,
+        72056,
+        72030,
+        72015,
+        72035,
+        72036,
+        72001,
+        72003
+      ],
+      "Difference": -77,
+      "DifferencePercent": -0.10682574916759156
+    },
+    {
+      "Name": "Bács-Kiskun",
+      "Index": "03",
+      "Town": null,
+      "Items": [
+        65596,
+        65551,
+        65518,
+        65494,
+        65501,
+        65479,
+        65460,
+        65418
+      ],
+      "Difference": -178,
+      "DifferencePercent": -0.27135800963473383
+    },
+    {
+      "Name": "Bács-Kiskun",
+      "Index": "04",
+      "Town": null,
+      "Items": [
+        71838,
+        71801,
+        71766,
+        71754,
+        71744,
+        71739,
+        71745,
+        71714
+      ],
+      "Difference": -124,
+      "DifferencePercent": -0.1726105960633648
+    },
+    {
+      "Name": "Bács-Kiskun",
+      "Index": "05",
+      "Town": null,
+      "Items": [
+        68592,
+        68565,
+        68535,
+        68521,
+        68495,
+        68476,
+        68452,
+        68433
+      ],
+      "Difference": -159,
+      "DifferencePercent": -0.23180545836249125
+    },
+    {
+      "Name": "Bács-Kiskun",
+      "Index": "06",
+      "Town": null,
+      "Items": [
+        64978,
+        64946,
+        64937,
+        64912,
+        64884,
+        64870,
+        64831,
+        64805
+      ],
+      "Difference": -173,
+      "DifferencePercent": -0.26624395949398255
+    },
+    {
+      "Name": "Békés",
+      "Index": "01",
+      "Town": null,
+      "Items": [
+        68792,
+        68772,
+        68741,
+        68723,
+        68703,
+        68695,
+        68667,
+        68660
+      ],
+      "Difference": -132,
+      "DifferencePercent": -0.19188277706710083
+    },
+    {
+      "Name": "Békés",
+      "Index": "02",
+      "Town": null,
+      "Items": [
+        69605,
+        69554,
+        69530,
+        69520,
+        69516,
+        69476,
+        69440,
+        69407
+      ],
+      "Difference": -198,
+      "DifferencePercent": -0.28446232310897207
+    },
+    {
+      "Name": "Békés",
+      "Index": "03",
+      "Town": null,
+      "Items": [
+        68101,
+        68076,
+        68067,
+        68049,
+        68031,
+        67980,
+        67940,
+        67925
+      ],
+      "Difference": -176,
+      "DifferencePercent": -0.2584396704894201
+    },
+    {
+      "Name": "Békés",
+      "Index": "04",
+      "Town": null,
+      "Items": [
+        71945,
+        71915,
+        71897,
+        71883,
+        71843,
+        71808,
+        71778,
+        71746
+      ],
+      "Difference": -199,
+      "DifferencePercent": -0.2766001806935854
+    },
+    {
+      "Name": "Borsod-Abaúj-Zemplén",
+      "Index": "01",
+      "Town": null,
+      "Items": [
+        72873,
+        72841,
+        72798,
+        72790,
+        72781,
+        72732,
+        72724,
+        72708
+      ],
+      "Difference": -165,
+      "DifferencePercent": -0.2264213083034869
+    },
+    {
+      "Name": "Borsod-Abaúj-Zemplén",
+      "Index": "02",
+      "Town": null,
+      "Items": [
+        71752,
+        71635,
+        71607,
+        71593,
+        71565,
+        71589,
+        71550,
+        71529
+      ],
+      "Difference": -223,
+      "DifferencePercent": -0.3107927305162225
+    },
+    {
+      "Name": "Borsod-Abaúj-Zemplén",
+      "Index": "03",
+      "Town": null,
+      "Items": [
+        71036,
+        70980,
+        70943,
+        70927,
+        70911,
+        70877,
+        70849,
+        70818
+      ],
+      "Difference": -218,
+      "DifferencePercent": -0.3068866490230306
+    },
+    {
+      "Name": "Borsod-Abaúj-Zemplén",
+      "Index": "04",
+      "Town": null,
+      "Items": [
+        74636,
+        74584,
+        74533,
+        74506,
+        74465,
+        74431,
+        74398,
+        74379
+      ],
+      "Difference": -257,
+      "DifferencePercent": -0.34433785304678705
+    },
+    {
+      "Name": "Borsod-Abaúj-Zemplén",
+      "Index": "05",
+      "Town": null,
+      "Items": [
+        73789,
+        73750,
+        73732,
+        73707,
+        73665,
+        73635,
+        73610,
+        73586
+      ],
+      "Difference": -203,
+      "DifferencePercent": -0.2751087560476494
+    },
+    {
+      "Name": "Borsod-Abaúj-Zemplén",
+      "Index": "06",
+      "Town": null,
+      "Items": [
+        76310,
+        76280,
+        76269,
+        76249,
+        76240,
+        76222,
+        76202,
+        76188
+      ],
+      "Difference": -122,
+      "DifferencePercent": -0.15987419735290265
+    },
+    {
+      "Name": "Borsod-Abaúj-Zemplén",
+      "Index": "07",
+      "Town": null,
+      "Items": [
+        75852,
+        75813,
+        75781,
+        75770,
+        75767,
+        75745,
+        75726,
+        75700
+      ],
+      "Difference": -152,
+      "DifferencePercent": -0.200390233612825
+    },
+    {
+      "Name": "Csongrád-Csanád",
+      "Index": "01",
+      "Town": null,
+      "Items": [
+        80927,
+        80923,
+        80893,
+        80877,
+        80881,
+        80846,
+        80783,
+        80762
+      ],
+      "Difference": -165,
+      "DifferencePercent": -0.20388745412532283
+    },
+    {
+      "Name": "Csongrád-Csanád",
+      "Index": "02",
+      "Town": null,
+      "Items": [
+        86815,
+        86803,
+        86800,
+        86790,
+        86765,
+        86744,
+        86698,
+        86679
+      ],
+      "Difference": -136,
+      "DifferencePercent": -0.15665495594079365
+    },
+    {
+      "Name": "Csongrád-Csanád",
+      "Index": "03",
+      "Town": null,
+      "Items": [
+        80544,
+        80506,
+        80448,
+        80410,
+        80376,
+        80351,
+        80324,
+        80286
+      ],
+      "Difference": -258,
+      "DifferencePercent": -0.3203218116805721
+    },
+    {
+      "Name": "Csongrád-Csanád",
+      "Index": "04",
+      "Town": null,
+      "Items": [
+        77702,
+        77656,
+        77644,
+        77616,
+        77605,
+        77582,
+        77552,
+        77535
+      ],
+      "Difference": -167,
+      "DifferencePercent": -0.21492368278808782
+    },
+    {
+      "Name": "Fejér",
+      "Index": "01",
+      "Town": null,
+      "Items": [
+        60256,
+        60215,
+        60227,
+        60240,
+        60241,
+        60240,
+        60226,
+        60197
+      ],
+      "Difference": -59,
+      "DifferencePercent": -0.09791556027615507
+    },
+    {
+      "Name": "Fejér",
+      "Index": "02",
+      "Town": null,
+      "Items": [
+        70277,
+        70260,
+        70264,
+        70262,
+        70259,
+        70270,
+        70277,
+        70286
+      ],
+      "Difference": 9,
+      "DifferencePercent": 0.012806465842309718
+    },
+    {
+      "Name": "Fejér",
+      "Index": "03",
+      "Town": null,
+      "Items": [
+        76652,
+        76656,
+        76658,
+        76673,
+        76685,
+        76666,
+        76677,
+        76661
+      ],
+      "Difference": 9,
+      "DifferencePercent": 0.01174137661117779
+    },
+    {
+      "Name": "Fejér",
+      "Index": "04",
+      "Town": null,
+      "Items": [
+        66328,
+        66274,
+        66259,
+        66273,
+        66279,
+        66268,
+        66227,
+        66179
+      ],
+      "Difference": -149,
+      "DifferencePercent": -0.22464117718007479
+    },
+    {
+      "Name": "Fejér",
+      "Index": "05",
+      "Town": null,
+      "Items": [
+        67444,
+        67423,
+        67410,
+        67407,
+        67392,
+        67386,
+        67360,
+        67365
+      ],
+      "Difference": -79,
+      "DifferencePercent": -0.11713421505248799
+    },
+    {
+      "Name": "Győr-Moson-Sopron",
+      "Index": "01",
+      "Town": null,
+      "Items": [
+        66764,
+        66748,
+        66734,
+        66732,
+        66711,
+        66696,
+        66702,
+        66684
+      ],
+      "Difference": -80,
+      "DifferencePercent": -0.11982505541908813
+    },
+    {
+      "Name": "Győr-Moson-Sopron",
+      "Index": "02",
+      "Town": null,
+      "Items": [
+        73118,
+        73086,
+        73090,
+        73088,
+        73113,
+        73135,
+        73121,
+        73104
+      ],
+      "Difference": -14,
+      "DifferencePercent": -0.01914713203315189
+    },
+    {
+      "Name": "Győr-Moson-Sopron",
+      "Index": "03",
+      "Town": null,
+      "Items": [
+        66771,
+        66768,
+        66746,
+        66747,
+        66746,
+        66734,
+        66747,
+        66735
+      ],
+      "Difference": -36,
+      "DifferencePercent": -0.05391562205148942
+    },
+    {
+      "Name": "Győr-Moson-Sopron",
+      "Index": "04",
+      "Town": null,
+      "Items": [
+        75585,
+        75571,
+        75556,
+        75541,
+        75525,
+        75521,
+        75516,
+        75505
+      ],
+      "Difference": -80,
+      "DifferencePercent": -0.10584110603955811
+    },
+    {
+      "Name": "Győr-Moson-Sopron",
+      "Index": "05",
+      "Town": null,
+      "Items": [
+        77121,
+        77122,
+        77122,
+        77115,
+        77112,
+        77119,
+        77122,
+        77129
+      ],
+      "Difference": 8,
+      "DifferencePercent": 0.010373309474721542
+    },
+    {
+      "Name": "Hajdú-Bihar",
+      "Index": "01",
+      "Town": null,
+      "Items": [
+        66564,
+        66536,
+        66511,
+        66504,
+        66471,
+        66458,
+        66442,
+        66405
+      ],
+      "Difference": -159,
+      "DifferencePercent": -0.23886785649900846
+    },
+    {
+      "Name": "Hajdú-Bihar",
+      "Index": "02",
+      "Town": null,
+      "Items": [
+        72564,
+        72538,
+        72471,
+        72438,
+        72425,
+        72425,
+        72409,
+        72393
+      ],
+      "Difference": -171,
+      "DifferencePercent": -0.23565404332726972
+    },
+    {
+      "Name": "Hajdú-Bihar",
+      "Index": "03",
+      "Town": null,
+      "Items": [
+        78398,
+        78388,
+        78379,
+        78341,
+        78349,
+        78314,
+        78335,
+        78321
+      ],
+      "Difference": -77,
+      "DifferencePercent": -0.09821679124467461
+    },
+    {
+      "Name": "Hajdú-Bihar",
+      "Index": "04",
+      "Town": null,
+      "Items": [
+        68129,
+        68107,
+        68062,
+        68048,
+        68036,
+        68016,
+        68012,
+        68009
+      ],
+      "Difference": -120,
+      "DifferencePercent": -0.17613644703430256
+    },
+    {
+      "Name": "Hajdú-Bihar",
+      "Index": "05",
+      "Town": null,
+      "Items": [
+        69902,
+        69867,
+        69834,
+        69817,
+        69791,
+        69774,
+        69746,
+        69724
+      ],
+      "Difference": -178,
+      "DifferencePercent": -0.25464221338445253
+    },
+    {
+      "Name": "Hajdú-Bihar",
+      "Index": "06",
+      "Town": null,
+      "Items": [
+        69976,
+        69928,
+        69902,
+        69886,
+        69860,
+        69829,
+        69819,
+        69782
+      ],
+      "Difference": -194,
+      "DifferencePercent": -0.27723791014061966
+    },
+    {
+      "Name": "Heves",
+      "Index": "01",
+      "Town": null,
+      "Items": [
+        81511,
+        81463,
+        81424,
+        81409,
+        81390,
+        81397,
+        81397,
+        81380
+      ],
+      "Difference": -131,
+      "DifferencePercent": -0.16071450479076443
+    },
+    {
+      "Name": "Heves",
+      "Index": "02",
+      "Town": null,
+      "Items": [
+        77299,
+        77244,
+        77213,
+        77197,
+        77164,
+        77118,
+        77077,
+        77025
+      ],
+      "Difference": -274,
+      "DifferencePercent": -0.35446771627058565
+    },
+    {
+      "Name": "Heves",
+      "Index": "03",
+      "Town": null,
+      "Items": [
+        80012,
+        79959,
+        79933,
+        79899,
+        79873,
+        79857,
+        79825,
+        79796
+      ],
+      "Difference": -216,
+      "DifferencePercent": -0.26995950607408886
+    },
+    {
+      "Name": "Jász-Nagykun-Szolnok",
+      "Index": "01",
+      "Town": null,
+      "Items": [
+        77879,
+        77836,
+        77815,
+        77802,
+        77788,
+        77726,
+        77696,
+        77671
+      ],
+      "Difference": -208,
+      "DifferencePercent": -0.2670809846043221
+    },
+    {
+      "Name": "Jász-Nagykun-Szolnok",
+      "Index": "02",
+      "Town": null,
+      "Items": [
+        71020,
+        70962,
+        70950,
+        70962,
+        70966,
+        70947,
+        70938,
+        70928
+      ],
+      "Difference": -92,
+      "DifferencePercent": -0.12954097437341594
+    },
+    {
+      "Name": "Jász-Nagykun-Szolnok",
+      "Index": "03",
+      "Town": null,
+      "Items": [
+        75504,
+        75461,
+        75416,
+        75402,
+        75361,
+        75332,
+        75327,
+        75315
+      ],
+      "Difference": -189,
+      "DifferencePercent": -0.2503178639542276
+    },
+    {
+      "Name": "Jász-Nagykun-Szolnok",
+      "Index": "04",
+      "Town": null,
+      "Items": [
+        74168,
+        74132,
+        74106,
+        74087,
+        74091,
+        74031,
+        74003,
+        73970
+      ],
+      "Difference": -198,
+      "DifferencePercent": -0.26696149282709525
+    },
+    {
+      "Name": "Komárom-Esztergom",
+      "Index": "01",
+      "Town": null,
+      "Items": [
+        78914,
+        78896,
+        78858,
+        78825,
+        78790,
+        78775,
+        78769,
+        78766
+      ],
+      "Difference": -148,
+      "DifferencePercent": -0.18754593608231745
+    },
+    {
+      "Name": "Komárom-Esztergom",
+      "Index": "02",
+      "Town": null,
+      "Items": [
+        81912,
+        81892,
+        81843,
+        81856,
+        81863,
+        81845,
+        81826,
+        81797
+      ],
+      "Difference": -115,
+      "DifferencePercent": -0.1403945697822053
+    },
+    {
+      "Name": "Komárom-Esztergom",
+      "Index": "03",
+      "Town": null,
+      "Items": [
+        82395,
+        82371,
+        82366,
+        82336,
+        82336,
+        82317,
+        82292,
+        82272
+      ],
+      "Difference": -123,
+      "DifferencePercent": -0.14928090296741306
+    },
+    {
+      "Name": "Nógrád",
+      "Index": "01",
+      "Town": null,
+      "Items": [
+        75705,
+        75626,
+        75576,
+        75568,
+        75533,
+        75520,
+        75487,
+        75480
+      ],
+      "Difference": -225,
+      "DifferencePercent": -0.2972062611452348
+    },
+    {
+      "Name": "Nógrád",
+      "Index": "02",
+      "Town": null,
+      "Items": [
+        78980,
+        78966,
+        78954,
+        78948,
+        78931,
+        78912,
+        78876,
+        78851
+      ],
+      "Difference": -129,
+      "DifferencePercent": -0.1633324892377817
+    },
+    {
+      "Name": "Pest",
+      "Index": "01",
+      "Town": null,
+      "Items": [
+        86964,
+        86969,
+        86987,
+        87001,
+        87012,
+        87006,
+        87002,
+        86985
+      ],
+      "Difference": 21,
+      "DifferencePercent": 0.024147923278598042
+    },
+    {
+      "Name": "Pest",
+      "Index": "02",
+      "Town": null,
+      "Items": [
+        94074,
+        94118,
+        94127,
+        94161,
+        94189,
+        94172,
+        94191,
+        94214
+      ],
+      "Difference": 140,
+      "DifferencePercent": 0.1488190148181219
+    },
+    {
+      "Name": "Pest",
+      "Index": "03",
+      "Town": null,
+      "Items": [
+        92107,
+        92127,
+        92119,
+        92139,
+        92155,
+        92150,
+        92167,
+        92161
+      ],
+      "Difference": 54,
+      "DifferencePercent": 0.05862746588207194
+    },
+    {
+      "Name": "Pest",
+      "Index": "04",
+      "Town": null,
+      "Items": [
+        75087,
+        75085,
+        75085,
+        75087,
+        75110,
+        75105,
+        75093,
+        75086
+      ],
+      "Difference": -1,
+      "DifferencePercent": -0.0013317884587212168
+    },
+    {
+      "Name": "Pest",
+      "Index": "05",
+      "Town": null,
+      "Items": [
+        97523,
+        97510,
+        97518,
+        97564,
+        97587,
+        97579,
+        97573,
+        97569
+      ],
+      "Difference": 46,
+      "DifferencePercent": 0.04716836028424064
+    },
+    {
+      "Name": "Pest",
+      "Index": "06",
+      "Town": null,
+      "Items": [
+        90750,
+        90750,
+        90746,
+        90753,
+        90745,
+        90731,
+        90734,
+        90727
+      ],
+      "Difference": -23,
+      "DifferencePercent": -0.02534435261707989
+    },
+    {
+      "Name": "Pest",
+      "Index": "07",
+      "Town": null,
+      "Items": [
+        90513,
+        90523,
+        90520,
+        90524,
+        90526,
+        90557,
+        90568,
+        90578
+      ],
+      "Difference": 65,
+      "DifferencePercent": 0.07181288875631126
+    },
+    {
+      "Name": "Pest",
+      "Index": "08",
+      "Town": null,
+      "Items": [
+        92054,
+        92048,
+        92060,
+        92058,
+        92083,
+        92067,
+        92073,
+        92099
+      ],
+      "Difference": 45,
+      "DifferencePercent": 0.048884350489929826
+    },
+    {
+      "Name": "Pest",
+      "Index": "09",
+      "Town": null,
+      "Items": [
+        76855,
+        76836,
+        76814,
+        76831,
+        76812,
+        76813,
+        76804,
+        76801
+      ],
+      "Difference": -54,
+      "DifferencePercent": -0.07026218203109752
+    },
+    {
+      "Name": "Pest",
+      "Index": "10",
+      "Town": null,
+      "Items": [
+        79206,
+        79190,
+        79176,
+        79170,
+        79177,
+        79159,
+        79164,
+        79156
+      ],
+      "Difference": -50,
+      "DifferencePercent": -0.06312653081837234
+    },
+    {
+      "Name": "Pest",
+      "Index": "11",
+      "Town": null,
+      "Items": [
+        88950,
+        88964,
+        88968,
+        88997,
+        88993,
+        88986,
+        89001,
+        89016
+      ],
+      "Difference": 66,
+      "DifferencePercent": 0.07419898819561552
+    },
+    {
+      "Name": "Pest",
+      "Index": "12",
+      "Town": null,
+      "Items": [
+        74389,
+        74395,
+        74342,
+        74352,
+        74352,
+        74311,
+        74306,
+        74309
+      ],
+      "Difference": -80,
+      "DifferencePercent": -0.10754278186290984
+    },
+    {
+      "Name": "Somogy",
+      "Index": "01",
+      "Town": null,
+      "Items": [
+        61615,
+        61576,
+        61557,
+        61541,
+        61533,
+        61509,
+        61500,
+        61482
+      ],
+      "Difference": -133,
+      "DifferencePercent": -0.21585652844274933
+    },
+    {
+      "Name": "Somogy",
+      "Index": "02",
+      "Town": null,
+      "Items": [
+        59612,
+        59583,
+        59578,
+        59559,
+        59530,
+        59522,
+        59494,
+        59459
+      ],
+      "Difference": -153,
+      "DifferencePercent": -0.2566597329396766
+    },
+    {
+      "Name": "Somogy",
+      "Index": "03",
+      "Town": null,
+      "Items": [
+        62461,
+        62449,
+        62429,
+        62407,
+        62407,
+        62387,
+        62386,
+        62363
+      ],
+      "Difference": -98,
+      "DifferencePercent": -0.15689790429227837
+    },
+    {
+      "Name": "Somogy",
+      "Index": "04",
+      "Town": null,
+      "Items": [
+        64585,
+        64588,
+        64556,
+        64544,
+        64547,
+        64521,
+        64489,
+        64472
+      ],
+      "Difference": -113,
+      "DifferencePercent": -0.17496322675543857
+    },
+    {
+      "Name": "Szabolcs-Szatmár-Bereg",
+      "Index": "01",
+      "Town": null,
+      "Items": [
+        74047,
+        74015,
+        73995,
+        73936,
+        73924,
+        73885,
+        73857,
+        73832
+      ],
+      "Difference": -215,
+      "DifferencePercent": -0.29035612516374737
+    },
+    {
+      "Name": "Szabolcs-Szatmár-Bereg",
+      "Index": "02",
+      "Town": null,
+      "Items": [
+        71620,
+        71595,
+        71561,
+        71571,
+        71575,
+        71574,
+        71563,
+        71549
+      ],
+      "Difference": -71,
+      "DifferencePercent": -0.09913432002234013
+    },
+    {
+      "Name": "Szabolcs-Szatmár-Bereg",
+      "Index": "03",
+      "Town": null,
+      "Items": [
+        77903,
+        77868,
+        77815,
+        77798,
+        77766,
+        77737,
+        77712,
+        77664
+      ],
+      "Difference": -239,
+      "DifferencePercent": -0.306791779520686
+    },
+    {
+      "Name": "Szabolcs-Szatmár-Bereg",
+      "Index": "04",
+      "Town": null,
+      "Items": [
+        73092,
+        73050,
+        73023,
+        72991,
+        72949,
+        72925,
+        72890,
+        72851
+      ],
+      "Difference": -241,
+      "DifferencePercent": -0.32972144694357797
+    },
+    {
+      "Name": "Szabolcs-Szatmár-Bereg",
+      "Index": "05",
+      "Town": null,
+      "Items": [
+        73425,
+        73390,
+        73369,
+        73364,
+        73325,
+        73282,
+        73258,
+        73235
+      ],
+      "Difference": -190,
+      "DifferencePercent": -0.2587674497786857
+    },
+    {
+      "Name": "Szabolcs-Szatmár-Bereg",
+      "Index": "06",
+      "Town": null,
+      "Items": [
+        72002,
+        71951,
+        71929,
+        71906,
+        71893,
+        71859,
+        71834,
+        71816
+      ],
+      "Difference": -186,
+      "DifferencePercent": -0.25832615760673316
+    },
+    {
+      "Name": "Tolna",
+      "Index": "01",
+      "Town": null,
+      "Items": [
+        59720,
+        59706,
+        59689,
+        59669,
+        59642,
+        59612,
+        59579,
+        59561
+      ],
+      "Difference": -159,
+      "DifferencePercent": -0.26624246483590086
+    },
+    {
+      "Name": "Tolna",
+      "Index": "02",
+      "Town": null,
+      "Items": [
+        58967,
+        58927,
+        58907,
+        58918,
+        58888,
+        58857,
+        58841,
+        58817
+      ],
+      "Difference": -150,
+      "DifferencePercent": -0.2543795682330795
+    },
+    {
+      "Name": "Tolna",
+      "Index": "03",
+      "Town": null,
+      "Items": [
+        59170,
+        59147,
+        59128,
+        59118,
+        59088,
+        59065,
+        59025,
+        58994
+      ],
+      "Difference": -176,
+      "DifferencePercent": -0.2974480310968396
+    },
+    {
+      "Name": "Vas",
+      "Index": "01",
+      "Town": null,
+      "Items": [
+        68551,
+        68531,
+        68504,
+        68480,
+        68462,
+        68429,
+        68442,
+        68440
+      ],
+      "Difference": -111,
+      "DifferencePercent": -0.16192323963180696
+    },
+    {
+      "Name": "Vas",
+      "Index": "02",
+      "Town": null,
+      "Items": [
+        68338,
+        68309,
+        68230,
+        68199,
+        68182,
+        68203,
+        68181,
+        68182
+      ],
+      "Difference": -156,
+      "DifferencePercent": -0.228277093271679
+    },
+    {
+      "Name": "Vas",
+      "Index": "03",
+      "Town": null,
+      "Items": [
+        66481,
+        66449,
+        66421,
+        66417,
+        66406,
+        66394,
+        66383,
+        66377
+      ],
+      "Difference": -104,
+      "DifferencePercent": -0.15643567335028052
+    },
+    {
+      "Name": "Veszprém",
+      "Index": "01",
+      "Town": null,
+      "Items": [
+        70584,
+        70577,
+        70542,
+        70521,
+        70496,
+        70469,
+        70447,
+        70431
+      ],
+      "Difference": -153,
+      "DifferencePercent": -0.21676300578034682
+    },
+    {
+      "Name": "Veszprém",
+      "Index": "02",
+      "Town": null,
+      "Items": [
+        73846,
+        73838,
+        73832,
+        73824,
+        73820,
+        73790,
+        73777,
+        73757
+      ],
+      "Difference": -89,
+      "DifferencePercent": -0.12052108441892587
+    },
+    {
+      "Name": "Veszprém",
+      "Index": "03",
+      "Town": null,
+      "Items": [
+        67744,
+        67710,
+        67693,
+        67681,
+        67664,
+        67656,
+        67654,
+        67647
+      ],
+      "Difference": -97,
+      "DifferencePercent": -0.14318611242324045
+    },
+    {
+      "Name": "Veszprém",
+      "Index": "04",
+      "Town": null,
+      "Items": [
+        68683,
+        68651,
+        68605,
+        68599,
+        68577,
+        68564,
+        68551,
+        68521
+      ],
+      "Difference": -162,
+      "DifferencePercent": -0.23586622599478765
+    },
+    {
+      "Name": "Zala",
+      "Index": "01",
+      "Town": null,
+      "Items": [
+        75268,
+        75236,
+        75212,
+        75184,
+        75151,
+        75111,
+        75087,
+        75078
+      ],
+      "Difference": -190,
+      "DifferencePercent": -0.25243131211138864
+    },
+    {
+      "Name": "Zala",
+      "Index": "02",
+      "Town": null,
+      "Items": [
+        73934,
+        73923,
+        73903,
+        73916,
+        73911,
+        73891,
+        73874,
+        73854
+      ],
+      "Difference": -80,
+      "DifferencePercent": -0.10820461492682663
+    },
+    {
+      "Name": "Zala",
+      "Index": "03",
+      "Town": null,
+      "Items": [
+        72195,
+        72155,
+        72115,
+        72092,
+        72047,
+        72028,
+        71998,
+        72000
+      ],
+      "Difference": -195,
+      "DifferencePercent": -0.2701018076044047
+    }
+  ],
+  "MaxIncrease": {
+    "Name": "Pest",
+    "Index": "02",
+    "Town": null,
+    "Items": [
+      94074,
+      94118,
+      94127,
+      94161,
+      94189,
+      94172,
+      94191,
+      94214
+    ],
+    "Difference": 140,
+    "DifferencePercent": 0.1488190148181219
+  },
+  "MaxIncreasePercent": {
+    "Name": "Pest",
+    "Index": "02",
+    "Town": null,
+    "Items": [
+      94074,
+      94118,
+      94127,
+      94161,
+      94189,
+      94172,
+      94191,
+      94214
+    ],
+    "Difference": 140,
+    "DifferencePercent": 0.1488190148181219
+  },
+  "MaxDecrease": {
+    "Name": "Heves",
+    "Index": "02",
+    "Town": null,
+    "Items": [
+      77299,
+      77244,
+      77213,
+      77197,
+      77164,
+      77118,
+      77077,
+      77025
+    ],
+    "Difference": -274,
+    "DifferencePercent": -0.35446771627058565
+  },
+  "MaxDecreasePercent": {
+    "Name": "Budapest",
+    "Index": "05",
+    "Town": null,
+    "Items": [
+      59464,
+      59433,
+      59394,
+      59359,
+      59276,
+      59228,
+      59209,
+      59203
+    ],
+    "Difference": -261,
+    "DifferencePercent": -0.43892102784878245
+  }
+}
