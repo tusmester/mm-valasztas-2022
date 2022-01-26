@@ -42,7 +42,7 @@ namespace LakossagStat.Data.Loaders
                 Logger.LogTrace($"Loading XLS file from {url}");
 
                 var uri = new Uri(url);
-                var client = _httpClientFactory.CreateClient(nameof(UrlDataLoader));
+                var client = _httpClientFactory.CreateClient();
                 var response = await client.GetAsync(uri);
 
                 if (!Directory.Exists(DownloadFileParent))

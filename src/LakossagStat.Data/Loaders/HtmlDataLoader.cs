@@ -37,7 +37,7 @@ namespace LakossagStat.Data.Loaders
 
                 // load the webpage
                 var uri = new Uri(Options.Path);
-                var client = _httpClientFactory.CreateClient(nameof(HtmlDataLoader));
+                var client = _httpClientFactory.CreateClient();
                 var response = await client.GetAsync(uri);
                 var responseHtml = await response.Content.ReadAsStringAsync();
 

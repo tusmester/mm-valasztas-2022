@@ -1,10 +1,10 @@
+using System.Net.Http;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using LakossagStat.Data.Loaders;
-using Microsoft.Extensions.Logging;
 
 namespace LakossagStat.WebApp
 {
@@ -23,7 +23,12 @@ namespace LakossagStat.WebApp
             services.AddRazorPages();
 
             // required by the loader services below
-            services.AddHttpClient();
+            services.AddHttpClient(Microsoft.Extensions.Options.Options.DefaultName)
+            .ConfigurePrimaryHttpMessageHandler(() => new HttpClientHandler
+                {
+                    ClientCertificateOptions = ClientCertificateOption.Manual,
+                    ServerCertificateCustomValidationCallback = (httpRequestMessage, cert, cetChain, policyErrors) => true
+                });
 
             services.Configure<DataLoaderOptions>(options =>
             {

@@ -1,4 +1,5 @@
 ﻿using System.IO;
+using System.Net.Http;
 using System.Text;
 using System.Threading.Tasks;
 using LakossagStat.Data;
@@ -19,8 +20,8 @@ namespace LakossagStat.Console
         {
             using var host = CreateHostBuilder(args).Build();
 
-            var logger = host.Services.GetService<ILogger<Program>>();
-            var loader = host.Services.GetService<IDataLoader>();
+            var logger = host.Services.GetRequiredService<ILogger<Program>>();
+            var loader = host.Services.GetRequiredService<IDataLoader>();
 
             logger.LogInformation($"Loading data...");
 
@@ -39,7 +40,7 @@ namespace LakossagStat.Console
             if (!Directory.Exists(ParentPath))
                 Directory.CreateDirectory(ParentPath);
 
-            File.WriteAllText(FilePath, json, Encoding.UTF8);
+            await File.WriteAllTextAsync(FilePath, json, Encoding.UTF8).ConfigureAwait(false);
 
             logger.LogInformation($"Data is saved to {FilePath}.");
         }
@@ -52,9 +53,16 @@ namespace LakossagStat.Console
                         logging.AddConsole();
                         logging.AddFile("Logs/mm-voksturizmus-{Date}.txt", LogLevel.Trace);
                     })
-                    .AddHttpClient()
                     // configure feature-specific options
                     .Configure<DataLoaderOptions>(hb.Configuration.GetSection("DataLoader"))
-                    .AddSingleton<IDataLoader, HtmlDataLoader>());
+                    .AddSingleton<IDataLoader, HtmlDataLoader>()
+                    // http client
+                    .AddHttpClient(Microsoft.Extensions.Options.Options.DefaultName)
+                    .ConfigurePrimaryHttpMessageHandler(() => new HttpClientHandler
+                    {
+                        ClientCertificateOptions = ClientCertificateOption.Manual,
+                        ServerCertificateCustomValidationCallback = (httpRequestMessage, cert, cetChain, policyErrors) => true
+                    })
+                );
     }
 }
