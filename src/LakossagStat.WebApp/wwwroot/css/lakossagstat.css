@@ -16,7 +16,10 @@ h1.display-4 {
 }
 
 .main-block {
-    font-size: x-large;
+    font-size: 1.2em;
+}
+.main-other-info {
+    font-size: 1em;
 }
 
 .table-header {

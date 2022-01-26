@@ -7,15 +7,25 @@
 <div class="text-center">
     <h1 class="display-4">Voksturizmus-figyelő</h1>
     <p class="main-block">
-        A 2022-es országgyűlési választáson fontos lesz látni, hogy mennyit változik az egyes választókerületekben
-        a bejelentett lakók száma. Ha egy településre túl sokan jelentkeznek be, az voksturizmusra utalhat.
+        A Fidesz novemberben sunyi módon, egy salátatörvénybe rejtve lényegében legalizálta a voksturizmust. 
+        Ezzel egy-egy lakásba tömegesen jelentkezhetnek be olyanok, akik ténylegesen nem is az adott választókerületben 
+        élnek, ezzel befolyásolva a választás eredményét. 
     </p>
     <p class="main-block">
-        Ez az oldal ennek nyomon követésében segít. Mivel a Választási Iroda december óta hetente közzéteszi,
-        hogy pontosan hányan vannak bejelentve kerületenként, a kirívó esetek könnyen észrevehetők.
+        Szél Bernadett és Szabó Szabolcs országgyűlési képviselők azonban elérték, hogy a Nemzeti Választási Iroda 
+        egészen a választás napjáig, hetente, települési bontásban hozza nyilvánosságra a névjegyzéki adatokat. 
+        Ha egy településre túl sokan jelentkeznek be, az voksturizmusra utalhat. 
     </p>
     <p class="main-block">
+        A választókerületek és települések lakosságszámának figyelésével segíthetjük megőrizni a választás tisztaságát, 
+        és le tudjuk buktatni azokat, akik fiktív lakcímeket hoznak létre csak azért, hogy olyanok is szavazhassanak, 
+        akik soha nem is jártak a környéken. Ez az oldal ennek nyomon követésében segít. 
+    </p>
+    <p class="main-other-info">
         Kiemeltük a december óta <strong>legtöbbet változott kerületeket</strong>, alul pedig a teljes lista böngészhető.
+        Töltsd le a teljes listát a
+        <a href="https://www.valasztas.hu/telepulesek-lakossag-es-valasztopolgarszama" target="_blank">Választási Iroda oldaláról</a>, 
+        vagy innen <a href="/data/lakossag-data-all.json">JSON formátumban</a>.
     </p>
     @if (DataStore.IsEmpty)
     {
@@ -26,49 +36,36 @@
         </script>
         <p><h2>Még nincsenek adatok, kis türelmet kérek <img src="images/Spinner-1s-68px.gif"/></h2>
             Ha sokáig nem történik semmi, kérlek frissítsd az oldalt!</p>
-        <p>
-            Töltsd le a teljes listát a
-            <a href="https://www.valasztas.hu/telepulesek-lakossag-es-valasztopolgarszama" target="_blank">Választási Iroda oldaláról</a>.
-        </p>
     }
     else
     {
-        <p>
-            Töltsd le a teljes listát a
-            <a href="https://www.valasztas.hu/telepulesek-lakossag-es-valasztopolgarszama" target="_blank">Választási Iroda oldaláról</a>, vagy innen 
-            <a href="/data/lakossag-data.json">JSON formátumban</a>.
-        </p>
         <br/>
         <p>
             <div class="container info-highlight">
                 <div class="row">
                     <div class="col-sm">
-                        @*<img src="images/chart-growth.png" alt="növekedés"/>*@
-                        <h5>Gyarapodás 2021. december óta</h5>
+                        <h5>Legnagyobb gyarapodás 2021. december óta</h5>
                         <h4 class="info-highlight">
                             +@DataStore.LakossagData.MaxIncrease?.Difference fő
                             (@DataStore.LakossagData.MaxIncrease?.Name @DataStore.LakossagData.MaxIncrease?.Index)
                         </h4>
                     </div>
                     <div class="col-sm">
-                        @*<img src="images/percent.png" alt="növekedés százalékosan" />*@
-                        <h5>Százalékos gyarapodás december óta</h5>
+                        <h5>Legnagyobb százalékos gyarapodás december óta</h5>
                         <h4 class="info-highlight">
                             +@DataStore.LakossagData.MaxIncreasePercent?.DifferencePercent.ToString("F") %
                             (@DataStore.LakossagData.MaxIncreasePercent?.Name @DataStore.LakossagData.MaxIncreasePercent?.Index)
                         </h4>
                     </div>
                     <div class="col-sm">
-                        @*<img src="images/chart-decrease.png" alt="csökkenés" />*@
-                        <h5>Csökkenés 2021. december óta</h5>
+                        <h5>Legnagyobb csökkenés 2021. december óta</h5>
                         <h4 class="info-highlight">
                             @DataStore.LakossagData.MaxDecrease?.Difference fő
                             (@DataStore.LakossagData.MaxDecrease?.Name @DataStore.LakossagData.MaxDecrease?.Index)
                         </h4>
                     </div>
                     <div class="col-sm">
-                        @*<img src="images/percent.png" alt="csökkenés százalékosan" />*@
-                        <h5>Százalékos csökkenés december óta</h5>
+                        <h5>Legnagyobb százalékos csökkenés december óta</h5>
                         <h4 class="info-highlight">
                             @DataStore.LakossagData.MaxDecreasePercent?.DifferencePercent.ToString("F") %
                             (@DataStore.LakossagData.MaxDecreasePercent?.Name @DataStore.LakossagData.MaxDecreasePercent?.Index)

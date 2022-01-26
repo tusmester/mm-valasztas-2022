@@ -1,4 +1,5 @@
-﻿using System.IO;
+﻿using System;
+using System.IO;
 using System.Net.Http;
 using System.Text;
 using System.Threading.Tasks;
@@ -14,7 +15,8 @@ namespace LakossagStat.Console
     class Program
     {
         const string ParentPath = "./App_Data";
-        const string FilePath = ParentPath + "/lakossag-data.json";
+        const string FilePathSmall = ParentPath + "/lakossag-data.json";
+        const string FilePathBig = ParentPath + "/lakossag-data-all.json";
 
         static async Task Main(string[] args)
         {
@@ -40,9 +42,23 @@ namespace LakossagStat.Console
             if (!Directory.Exists(ParentPath))
                 Directory.CreateDirectory(ParentPath);
 
-            await File.WriteAllTextAsync(FilePath, json, Encoding.UTF8).ConfigureAwait(false);
+            // temporarily cleat the all list
+            var origAllList = data.AllItems;
+            data.AllItems = Array.Empty<OevkData>();
 
-            logger.LogInformation($"Data is saved to {FilePath}.");
+            // save the small file
+            var jsonSmall = JsonConvert.SerializeObject(data, Formatting.Indented);
+            await File.WriteAllTextAsync(FilePathSmall, jsonSmall, Encoding.UTF8);
+
+            logger.LogInformation($"Data is saved to {FilePathSmall}.");
+
+            data.AllItems = origAllList;
+
+            // save the big file
+            var jsonBig = JsonConvert.SerializeObject(data, Formatting.Indented);
+            await File.WriteAllTextAsync(FilePathBig, jsonBig, Encoding.UTF8);
+
+            logger.LogInformation($"Data is saved to {FilePathBig}.");
         }
 
         static IHostBuilder CreateHostBuilder(string[] args) =>

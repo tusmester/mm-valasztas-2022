@@ -11,7 +11,8 @@ namespace LakossagStat.WebApp
     internal class LoaderServiceWorker
     {
         const string ParentPath = "./wwwroot/data";
-        const string FilePath = ParentPath + "/lakossag-data.json";
+        const string FilePathSmall = ParentPath + "/lakossag-data.json";
+        const string FilePathBig = ParentPath + "/lakossag-data-all.json";
         private const int RefreshPeriodHours = 12;
 
         private readonly IDataLoader _loader;
@@ -75,13 +76,23 @@ namespace LakossagStat.WebApp
 
                 try
                 {
-                    var json = JsonConvert.SerializeObject(data, Formatting.Indented);
+                    // temporarily cleat the all list
+                    var origAllList = data.AllItems;
+                    data.AllItems = Array.Empty<OevkData>();
 
-                    File.WriteAllText(FilePath, json, Encoding.UTF8);
+                    // save the small file
+                    var jsonSmall = JsonConvert.SerializeObject(data, Formatting.Indented);
+                    File.WriteAllText(FilePathSmall, jsonSmall, Encoding.UTF8);
+
+                    data.AllItems = origAllList;
+
+                    // save the big file
+                    var jsonBig = JsonConvert.SerializeObject(data, Formatting.Indented);
+                    File.WriteAllText(FilePathBig, jsonBig, Encoding.UTF8);
                 }
                 catch (Exception ex)
                 {
-                    _logger.LogError($"Error serializing or saving json data to {FilePath}: {ex.Message}", ex);
+                    _logger.LogError($"Error serializing or saving json data to {FilePathSmall}: {ex.Message}", ex);
                     return;
                 }
 
