@@ -1,3 +1,4 @@
+using System.Net;
 using System.Net.Http;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
@@ -21,6 +22,8 @@ namespace LakossagStat.WebApp
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddRazorPages();
+
+            ServicePointManager.SecurityProtocol = SecurityProtocolType.Tls12;
 
             // required by the loader services below
             services.AddHttpClient(Microsoft.Extensions.Options.Options.DefaultName)
