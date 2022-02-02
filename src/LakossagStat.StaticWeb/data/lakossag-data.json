@@ -1,5 +1,5 @@
 ﻿{
-  "Date": "2022-01-26T14:59:50",
+  "Date": "2022-02-01T09:33:50",
   "AllItems": [],
   "OevkItems": [
     {
@@ -14,10 +14,11 @@
         59972,
         59979,
         59947,
-        59932
+        59932,
+        59917
       ],
-      "Difference": -164,
-      "DifferencePercent": -0.27289669861554844
+      "Difference": -179,
+      "DifferencePercent": -0.29785676251331206
     },
     {
       "Name": "Budapest",
@@ -31,10 +32,11 @@
         66903,
         66898,
         66905,
-        66892
+        66892,
+        66885
       ],
-      "Difference": -52,
-      "DifferencePercent": -0.07767686424474188
+      "Difference": -59,
+      "DifferencePercent": -0.08813336520076481
     },
     {
       "Name": "Budapest",
@@ -48,10 +50,11 @@
         64495,
         64495,
         64477,
-        64469
+        64469,
+        64426
       ],
-      "Difference": -87,
-      "DifferencePercent": -0.13476671417064254
+      "Difference": -130,
+      "DifferencePercent": -0.20137554991015552
     },
     {
       "Name": "Budapest",
@@ -65,10 +68,11 @@
         71264,
         71262,
         71279,
-        71285
+        71285,
+        71259
       ],
-      "Difference": 2,
-      "DifferencePercent": 0.0028057180533928145
+      "Difference": -24,
+      "DifferencePercent": -0.03366861664071377
     },
     {
       "Name": "Budapest",
@@ -82,10 +86,11 @@
         59276,
         59228,
         59209,
-        59203
+        59203,
+        59171
       ],
-      "Difference": -261,
-      "DifferencePercent": -0.43892102784878245
+      "Difference": -293,
+      "DifferencePercent": -0.4927351002287098
     },
     {
       "Name": "Budapest",
@@ -99,10 +104,11 @@
         68632,
         68585,
         68549,
-        68535
+        68535,
+        68478
       ],
-      "Difference": -176,
-      "DifferencePercent": -0.25614530424531734
+      "Difference": -233,
+      "DifferencePercent": -0.3391014539156758
     },
     {
       "Name": "Budapest",
@@ -116,10 +122,11 @@
         79440,
         79447,
         79392,
-        79401
+        79401,
+        79365
       ],
-      "Difference": -75,
-      "DifferencePercent": -0.09436811112788766
+      "Difference": -111,
+      "DifferencePercent": -0.13966480446927373
     },
     {
       "Name": "Budapest",
@@ -133,10 +140,11 @@
         75058,
         75023,
         74997,
-        74961
+        74961,
+        74893
       ],
-      "Difference": -183,
-      "DifferencePercent": -0.24353241775790482
+      "Difference": -251,
+      "DifferencePercent": -0.33402533801767276
     },
     {
       "Name": "Budapest",
@@ -150,10 +158,11 @@
         72459,
         72417,
         72348,
-        72328
+        72328,
+        72293
       ],
-      "Difference": -233,
-      "DifferencePercent": -0.321109135761635
+      "Difference": -268,
+      "DifferencePercent": -0.36934441366574333
     },
     {
       "Name": "Budapest",
@@ -166,6 +175,7 @@
         69944,
         69915,
         69906,
+        69858,
         69858,
         69858
       ],
@@ -184,10 +194,11 @@
         74769,
         74733,
         74716,
-        74714
+        74714,
+        74675
       ],
-      "Difference": -57,
-      "DifferencePercent": -0.07623276403953404
+      "Difference": -96,
+      "DifferencePercent": -0.128392023645531
     },
     {
       "Name": "Budapest",
@@ -201,10 +212,11 @@
         72217,
         72197,
         72162,
-        72158
+        72158,
+        72087
       ],
-      "Difference": -143,
-      "DifferencePercent": -0.19778426301157662
+      "Difference": -214,
+      "DifferencePercent": -0.2959848411501916
     },
     {
       "Name": "Budapest",
@@ -218,10 +230,11 @@
         69000,
         68994,
         68969,
-        68944
+        68944,
+        68927
       ],
-      "Difference": -42,
-      "DifferencePercent": -0.060881918070333114
+      "Difference": -59,
+      "DifferencePercent": -0.08552459919403937
     },
     {
       "Name": "Budapest",
@@ -235,10 +248,11 @@
         74462,
         74447,
         74413,
-        74407
+        74407,
+        74387
       ],
-      "Difference": -79,
-      "DifferencePercent": -0.10606019923207045
+      "Difference": -99,
+      "DifferencePercent": -0.1329108825819617
     },
     {
       "Name": "Budapest",
@@ -252,10 +266,11 @@
         78262,
         78249,
         78206,
-        78199
+        78199,
+        78182
       ],
-      "Difference": -68,
-      "DifferencePercent": -0.0868820831257107
+      "Difference": -85,
+      "DifferencePercent": -0.10860260390713838
     },
     {
       "Name": "Budapest",
@@ -269,10 +284,11 @@
         69717,
         69704,
         69687,
-        69661
+        69661,
+        69650
       ],
-      "Difference": -208,
-      "DifferencePercent": -0.29769998139375115
+      "Difference": -219,
+      "DifferencePercent": -0.31344373040976686
     },
     {
       "Name": "Budapest",
@@ -286,10 +302,11 @@
         74803,
         74744,
         74705,
-        74708
+        74708,
+        74681
       ],
-      "Difference": -171,
-      "DifferencePercent": -0.22836843440751078
+      "Difference": -198,
+      "DifferencePercent": -0.2644266082613283
     },
     {
       "Name": "Budapest",
@@ -303,10 +320,11 @@
         77165,
         77161,
         77159,
-        77163
+        77163,
+        77165
       ],
-      "Difference": 61,
-      "DifferencePercent": 0.07911597623926746
+      "Difference": 63,
+      "DifferencePercent": 0.0817099426733418
     },
     {
       "Name": "Baranya",
@@ -320,10 +338,11 @@
         74709,
         74689,
         74662,
-        74634
+        74634,
+        74616
       ],
-      "Difference": -185,
-      "DifferencePercent": -0.24726339566152983
+      "Difference": -203,
+      "DifferencePercent": -0.27132145577994893
     },
     {
       "Name": "Baranya",
@@ -337,10 +356,11 @@
         76910,
         76886,
         76849,
-        76821
+        76821,
+        76810
       ],
-      "Difference": -168,
-      "DifferencePercent": -0.21821299146631337
+      "Difference": -179,
+      "DifferencePercent": -0.23250074685994104
     },
     {
       "Name": "Baranya",
@@ -354,10 +374,11 @@
         71036,
         71003,
         70981,
-        70958
+        70958,
+        70929
       ],
-      "Difference": -158,
-      "DifferencePercent": -0.2221722256594859
+      "Difference": -187,
+      "DifferencePercent": -0.2629506721412903
     },
     {
       "Name": "Baranya",
@@ -371,10 +392,11 @@
         76072,
         76060,
         76048,
-        76040
+        76040,
+        76019
       ],
-      "Difference": -145,
-      "DifferencePercent": -0.19032617969416551
+      "Difference": -166,
+      "DifferencePercent": -0.21789066089125156
     },
     {
       "Name": "Bács-Kiskun",
@@ -388,10 +410,11 @@
         69250,
         69238,
         69237,
-        69233
+        69233,
+        69224
       ],
-      "Difference": -74,
-      "DifferencePercent": -0.10677132180010677
+      "Difference": -83,
+      "DifferencePercent": -0.11975702310011976
     },
     {
       "Name": "Bács-Kiskun",
@@ -405,10 +428,11 @@
         72035,
         72036,
         72001,
-        72003
+        72003,
+        72006
       ],
-      "Difference": -77,
-      "DifferencePercent": -0.10682574916759156
+      "Difference": -74,
+      "DifferencePercent": -0.10266370699223086
     },
     {
       "Name": "Bács-Kiskun",
@@ -422,10 +446,11 @@
         65501,
         65479,
         65460,
-        65418
+        65418,
+        65386
       ],
-      "Difference": -178,
-      "DifferencePercent": -0.27135800963473383
+      "Difference": -210,
+      "DifferencePercent": -0.3201414720409781
     },
     {
       "Name": "Bács-Kiskun",
@@ -439,10 +464,11 @@
         71744,
         71739,
         71745,
-        71714
+        71714,
+        71694
       ],
-      "Difference": -124,
-      "DifferencePercent": -0.1726105960633648
+      "Difference": -144,
+      "DifferencePercent": -0.20045101478326233
     },
     {
       "Name": "Bács-Kiskun",
@@ -456,10 +482,11 @@
         68495,
         68476,
         68452,
-        68433
+        68433,
+        68407
       ],
-      "Difference": -159,
-      "DifferencePercent": -0.23180545836249125
+      "Difference": -185,
+      "DifferencePercent": -0.2697107534406345
     },
     {
       "Name": "Bács-Kiskun",
@@ -473,10 +500,11 @@
         64884,
         64870,
         64831,
-        64805
+        64805,
+        64781
       ],
-      "Difference": -173,
-      "DifferencePercent": -0.26624395949398255
+      "Difference": -197,
+      "DifferencePercent": -0.3031795376896796
     },
     {
       "Name": "Békés",
@@ -490,10 +518,11 @@
         68703,
         68695,
         68667,
-        68660
+        68660,
+        68656
       ],
-      "Difference": -132,
-      "DifferencePercent": -0.19188277706710083
+      "Difference": -136,
+      "DifferencePercent": -0.19769740667519478
     },
     {
       "Name": "Békés",
@@ -507,10 +536,11 @@
         69516,
         69476,
         69440,
-        69407
+        69407,
+        69370
       ],
-      "Difference": -198,
-      "DifferencePercent": -0.28446232310897207
+      "Difference": -235,
+      "DifferencePercent": -0.3376194238919618
     },
     {
       "Name": "Békés",
@@ -524,10 +554,11 @@
         68031,
         67980,
         67940,
-        67925
+        67925,
+        67909
       ],
-      "Difference": -176,
-      "DifferencePercent": -0.2584396704894201
+      "Difference": -192,
+      "DifferencePercent": -0.2819341859884583
     },
     {
       "Name": "Békés",
@@ -541,10 +572,11 @@
         71843,
         71808,
         71778,
-        71746
+        71746,
+        71725
       ],
-      "Difference": -199,
-      "DifferencePercent": -0.2766001806935854
+      "Difference": -220,
+      "DifferencePercent": -0.30578914448537076
     },
     {
       "Name": "Borsod-Abaúj-Zemplén",
@@ -558,10 +590,11 @@
         72781,
         72732,
         72724,
-        72708
+        72708,
+        72701
       ],
-      "Difference": -165,
-      "DifferencePercent": -0.2264213083034869
+      "Difference": -172,
+      "DifferencePercent": -0.23602706077696814
     },
     {
       "Name": "Borsod-Abaúj-Zemplén",
@@ -575,10 +608,11 @@
         71565,
         71589,
         71550,
-        71529
+        71529,
+        71525
       ],
-      "Difference": -223,
-      "DifferencePercent": -0.3107927305162225
+      "Difference": -227,
+      "DifferencePercent": -0.3163674880142714
     },
     {
       "Name": "Borsod-Abaúj-Zemplén",
@@ -592,10 +626,11 @@
         70911,
         70877,
         70849,
-        70818
+        70818,
+        70804
       ],
-      "Difference": -218,
-      "DifferencePercent": -0.3068866490230306
+      "Difference": -232,
+      "DifferencePercent": -0.3265949659327665
     },
     {
       "Name": "Borsod-Abaúj-Zemplén",
@@ -609,10 +644,11 @@
         74465,
         74431,
         74398,
-        74379
+        74379,
+        74361
       ],
-      "Difference": -257,
-      "DifferencePercent": -0.34433785304678705
+      "Difference": -275,
+      "DifferencePercent": -0.3684549011201029
     },
     {
       "Name": "Borsod-Abaúj-Zemplén",
@@ -626,10 +662,11 @@
         73665,
         73635,
         73610,
-        73586
+        73586,
+        73580
       ],
-      "Difference": -203,
-      "DifferencePercent": -0.2751087560476494
+      "Difference": -209,
+      "DifferencePercent": -0.2832400493298459
     },
     {
       "Name": "Borsod-Abaúj-Zemplén",
@@ -643,10 +680,11 @@
         76240,
         76222,
         76202,
-        76188
+        76188,
+        76174
       ],
-      "Difference": -122,
-      "DifferencePercent": -0.15987419735290265
+      "Difference": -136,
+      "DifferencePercent": -0.1782204167212685
     },
     {
       "Name": "Borsod-Abaúj-Zemplén",
@@ -660,10 +698,11 @@
         75767,
         75745,
         75726,
-        75700
+        75700,
+        75706
       ],
-      "Difference": -152,
-      "DifferencePercent": -0.200390233612825
+      "Difference": -146,
+      "DifferencePercent": -0.19248009281231873
     },
     {
       "Name": "Csongrád-Csanád",
@@ -677,10 +716,11 @@
         80881,
         80846,
         80783,
-        80762
+        80762,
+        80742
       ],
-      "Difference": -165,
-      "DifferencePercent": -0.20388745412532283
+      "Difference": -185,
+      "DifferencePercent": -0.22860108492839226
     },
     {
       "Name": "Csongrád-Csanád",
@@ -694,10 +734,11 @@
         86765,
         86744,
         86698,
-        86679
+        86679,
+        86670
       ],
-      "Difference": -136,
-      "DifferencePercent": -0.15665495594079365
+      "Difference": -145,
+      "DifferencePercent": -0.16702182802511087
     },
     {
       "Name": "Csongrád-Csanád",
@@ -711,10 +752,11 @@
         80376,
         80351,
         80324,
-        80286
+        80286,
+        80280
       ],
-      "Difference": -258,
-      "DifferencePercent": -0.3203218116805721
+      "Difference": -264,
+      "DifferencePercent": -0.32777115613825986
     },
     {
       "Name": "Csongrád-Csanád",
@@ -728,10 +770,11 @@
         77605,
         77582,
         77552,
-        77535
+        77535,
+        77517
       ],
-      "Difference": -167,
-      "DifferencePercent": -0.21492368278808782
+      "Difference": -185,
+      "DifferencePercent": -0.23808910967542662
     },
     {
       "Name": "Fejér",
@@ -745,10 +788,11 @@
         60241,
         60240,
         60226,
-        60197
+        60197,
+        60169
       ],
-      "Difference": -59,
-      "DifferencePercent": -0.09791556027615507
+      "Difference": -87,
+      "DifferencePercent": -0.14438396176314391
     },
     {
       "Name": "Fejér",
@@ -762,10 +806,11 @@
         70259,
         70270,
         70277,
-        70286
+        70286,
+        70254
       ],
-      "Difference": 9,
-      "DifferencePercent": 0.012806465842309718
+      "Difference": -23,
+      "DifferencePercent": -0.032727634930347055
     },
     {
       "Name": "Fejér",
@@ -779,10 +824,11 @@
         76685,
         76666,
         76677,
-        76661
+        76661,
+        76636
       ],
-      "Difference": 9,
-      "DifferencePercent": 0.01174137661117779
+      "Difference": -16,
+      "DifferencePercent": -0.020873558419871627
     },
     {
       "Name": "Fejér",
@@ -796,10 +842,11 @@
         66279,
         66268,
         66227,
-        66179
+        66179,
+        66155
       ],
-      "Difference": -149,
-      "DifferencePercent": -0.22464117718007479
+      "Difference": -173,
+      "DifferencePercent": -0.26082499095404654
     },
     {
       "Name": "Fejér",
@@ -813,10 +860,11 @@
         67392,
         67386,
         67360,
-        67365
+        67365,
+        67343
       ],
-      "Difference": -79,
-      "DifferencePercent": -0.11713421505248799
+      "Difference": -101,
+      "DifferencePercent": -0.1497538698772315
     },
     {
       "Name": "Győr-Moson-Sopron",
@@ -830,10 +878,11 @@
         66711,
         66696,
         66702,
-        66684
+        66684,
+        66681
       ],
-      "Difference": -80,
-      "DifferencePercent": -0.11982505541908813
+      "Difference": -83,
+      "DifferencePercent": -0.12431849499730394
     },
     {
       "Name": "Győr-Moson-Sopron",
@@ -847,10 +896,11 @@
         73113,
         73135,
         73121,
-        73104
+        73104,
+        73083
       ],
-      "Difference": -14,
-      "DifferencePercent": -0.01914713203315189
+      "Difference": -35,
+      "DifferencePercent": -0.04786783008287973
     },
     {
       "Name": "Győr-Moson-Sopron",
@@ -864,10 +914,11 @@
         66746,
         66734,
         66747,
-        66735
+        66735,
+        66734
       ],
-      "Difference": -36,
-      "DifferencePercent": -0.05391562205148942
+      "Difference": -37,
+      "DifferencePercent": -0.055413278219586345
     },
     {
       "Name": "Győr-Moson-Sopron",
@@ -881,10 +932,11 @@
         75525,
         75521,
         75516,
-        75505
+        75505,
+        75506
       ],
-      "Difference": -80,
-      "DifferencePercent": -0.10584110603955811
+      "Difference": -79,
+      "DifferencePercent": -0.10451809221406363
     },
     {
       "Name": "Győr-Moson-Sopron",
@@ -898,10 +950,11 @@
         77112,
         77119,
         77122,
-        77129
+        77129,
+        77121
       ],
-      "Difference": 8,
-      "DifferencePercent": 0.010373309474721542
+      "Difference": 0,
+      "DifferencePercent": 0.0
     },
     {
       "Name": "Hajdú-Bihar",
@@ -915,10 +968,11 @@
         66471,
         66458,
         66442,
-        66405
+        66405,
+        66385
       ],
-      "Difference": -159,
-      "DifferencePercent": -0.23886785649900846
+      "Difference": -179,
+      "DifferencePercent": -0.2689141277567454
     },
     {
       "Name": "Hajdú-Bihar",
@@ -932,10 +986,11 @@
         72425,
         72425,
         72409,
-        72393
+        72393,
+        72371
       ],
-      "Difference": -171,
-      "DifferencePercent": -0.23565404332726972
+      "Difference": -193,
+      "DifferencePercent": -0.2659721073810705
     },
     {
       "Name": "Hajdú-Bihar",
@@ -949,10 +1004,11 @@
         78349,
         78314,
         78335,
-        78321
+        78321,
+        78334
       ],
-      "Difference": -77,
-      "DifferencePercent": -0.09821679124467461
+      "Difference": -64,
+      "DifferencePercent": -0.08163473557998928
     },
     {
       "Name": "Hajdú-Bihar",
@@ -966,10 +1022,11 @@
         68036,
         68016,
         68012,
-        68009
+        68009,
+        68008
       ],
-      "Difference": -120,
-      "DifferencePercent": -0.17613644703430256
+      "Difference": -121,
+      "DifferencePercent": -0.17760425075958844
     },
     {
       "Name": "Hajdú-Bihar",
@@ -983,10 +1040,11 @@
         69791,
         69774,
         69746,
-        69724
+        69724,
+        69702
       ],
-      "Difference": -178,
-      "DifferencePercent": -0.25464221338445253
+      "Difference": -200,
+      "DifferencePercent": -0.28611484649938485
     },
     {
       "Name": "Hajdú-Bihar",
@@ -1000,10 +1058,11 @@
         69860,
         69829,
         69819,
-        69782
+        69782,
+        69773
       ],
-      "Difference": -194,
-      "DifferencePercent": -0.27723791014061966
+      "Difference": -203,
+      "DifferencePercent": -0.2900994626729164
     },
     {
       "Name": "Heves",
@@ -1017,10 +1076,11 @@
         81390,
         81397,
         81397,
-        81380
+        81380,
+        81367
       ],
-      "Difference": -131,
-      "DifferencePercent": -0.16071450479076443
+      "Difference": -144,
+      "DifferencePercent": -0.17666327244175634
     },
     {
       "Name": "Heves",
@@ -1034,10 +1094,11 @@
         77164,
         77118,
         77077,
-        77025
+        77025,
+        76987
       ],
-      "Difference": -274,
-      "DifferencePercent": -0.35446771627058565
+      "Difference": -312,
+      "DifferencePercent": -0.4036274725416888
     },
     {
       "Name": "Heves",
@@ -1051,10 +1112,11 @@
         79873,
         79857,
         79825,
-        79796
+        79796,
+        79782
       ],
-      "Difference": -216,
-      "DifferencePercent": -0.26995950607408886
+      "Difference": -230,
+      "DifferencePercent": -0.2874568814677798
     },
     {
       "Name": "Jász-Nagykun-Szolnok",
@@ -1068,10 +1130,11 @@
         77788,
         77726,
         77696,
-        77671
+        77671,
+        77659
       ],
-      "Difference": -208,
-      "DifferencePercent": -0.2670809846043221
+      "Difference": -220,
+      "DifferencePercent": -0.28248950294687913
     },
     {
       "Name": "Jász-Nagykun-Szolnok",
@@ -1085,10 +1148,11 @@
         70966,
         70947,
         70938,
-        70928
+        70928,
+        70922
       ],
-      "Difference": -92,
-      "DifferencePercent": -0.12954097437341594
+      "Difference": -98,
+      "DifferencePercent": -0.1379892987890735
     },
     {
       "Name": "Jász-Nagykun-Szolnok",
@@ -1102,10 +1166,11 @@
         75361,
         75332,
         75327,
-        75315
+        75315,
+        75283
       ],
-      "Difference": -189,
-      "DifferencePercent": -0.2503178639542276
+      "Difference": -221,
+      "DifferencePercent": -0.2926997245179063
     },
     {
       "Name": "Jász-Nagykun-Szolnok",
@@ -1119,10 +1184,11 @@
         74091,
         74031,
         74003,
-        73970
+        73970,
+        73941
       ],
-      "Difference": -198,
-      "DifferencePercent": -0.26696149282709525
+      "Difference": -227,
+      "DifferencePercent": -0.30606191349369
     },
     {
       "Name": "Komárom-Esztergom",
@@ -1136,10 +1202,11 @@
         78790,
         78775,
         78769,
-        78766
+        78766,
+        78747
       ],
-      "Difference": -148,
-      "DifferencePercent": -0.18754593608231745
+      "Difference": -167,
+      "DifferencePercent": -0.21162277922802036
     },
     {
       "Name": "Komárom-Esztergom",
@@ -1153,10 +1220,11 @@
         81863,
         81845,
         81826,
-        81797
+        81797,
+        81827
       ],
-      "Difference": -115,
-      "DifferencePercent": -0.1403945697822053
+      "Difference": -85,
+      "DifferencePercent": -0.1037698994042387
     },
     {
       "Name": "Komárom-Esztergom",
@@ -1170,10 +1238,11 @@
         82336,
         82317,
         82292,
-        82272
+        82272,
+        82273
       ],
-      "Difference": -123,
-      "DifferencePercent": -0.14928090296741306
+      "Difference": -122,
+      "DifferencePercent": -0.14806723708962924
     },
     {
       "Name": "Nógrád",
@@ -1187,10 +1256,11 @@
         75533,
         75520,
         75487,
-        75480
+        75480,
+        75461
       ],
-      "Difference": -225,
-      "DifferencePercent": -0.2972062611452348
+      "Difference": -244,
+      "DifferencePercent": -0.3223036787530546
     },
     {
       "Name": "Nógrád",
@@ -1204,10 +1274,11 @@
         78931,
         78912,
         78876,
-        78851
+        78851,
+        78844
       ],
-      "Difference": -129,
-      "DifferencePercent": -0.1633324892377817
+      "Difference": -136,
+      "DifferencePercent": -0.17219549252975436
     },
     {
       "Name": "Pest",
@@ -1221,10 +1292,11 @@
         87012,
         87006,
         87002,
-        86985
+        86985,
+        86953
       ],
-      "Difference": 21,
-      "DifferencePercent": 0.024147923278598042
+      "Difference": -11,
+      "DifferencePercent": -0.012648912193551354
     },
     {
       "Name": "Pest",
@@ -1238,10 +1310,11 @@
         94189,
         94172,
         94191,
-        94214
+        94214,
+        94211
       ],
-      "Difference": 140,
-      "DifferencePercent": 0.1488190148181219
+      "Difference": 137,
+      "DifferencePercent": 0.14563003592916215
     },
     {
       "Name": "Pest",
@@ -1255,10 +1328,11 @@
         92155,
         92150,
         92167,
-        92161
+        92161,
+        92198
       ],
-      "Difference": 54,
-      "DifferencePercent": 0.05862746588207194
+      "Difference": 91,
+      "DifferencePercent": 0.09879813694941753
     },
     {
       "Name": "Pest",
@@ -1272,10 +1346,11 @@
         75110,
         75105,
         75093,
-        75086
+        75086,
+        75082
       ],
-      "Difference": -1,
-      "DifferencePercent": -0.0013317884587212168
+      "Difference": -5,
+      "DifferencePercent": -0.006658942293606083
     },
     {
       "Name": "Pest",
@@ -1289,10 +1364,11 @@
         97587,
         97579,
         97573,
-        97569
+        97569,
+        97583
       ],
-      "Difference": 46,
-      "DifferencePercent": 0.04716836028424064
+      "Difference": 60,
+      "DifferencePercent": 0.06152394819683562
     },
     {
       "Name": "Pest",
@@ -1306,10 +1382,11 @@
         90745,
         90731,
         90734,
-        90727
+        90727,
+        90747
       ],
-      "Difference": -23,
-      "DifferencePercent": -0.02534435261707989
+      "Difference": -3,
+      "DifferencePercent": -0.003305785123966942
     },
     {
       "Name": "Pest",
@@ -1323,6 +1400,7 @@
         90526,
         90557,
         90568,
+        90578,
         90578
       ],
       "Difference": 65,
@@ -1340,10 +1418,11 @@
         92083,
         92067,
         92073,
-        92099
+        92099,
+        92097
       ],
-      "Difference": 45,
-      "DifferencePercent": 0.048884350489929826
+      "Difference": 43,
+      "DifferencePercent": 0.04671171269037739
     },
     {
       "Name": "Pest",
@@ -1357,10 +1436,11 @@
         76812,
         76813,
         76804,
-        76801
+        76801,
+        76769
       ],
-      "Difference": -54,
-      "DifferencePercent": -0.07026218203109752
+      "Difference": -86,
+      "DifferencePercent": -0.11189903064211827
     },
     {
       "Name": "Pest",
@@ -1374,10 +1454,11 @@
         79177,
         79159,
         79164,
-        79156
+        79156,
+        79149
       ],
-      "Difference": -50,
-      "DifferencePercent": -0.06312653081837234
+      "Difference": -57,
+      "DifferencePercent": -0.07196424513294447
     },
     {
       "Name": "Pest",
@@ -1391,10 +1472,11 @@
         88993,
         88986,
         89001,
-        89016
+        89016,
+        89022
       ],
-      "Difference": 66,
-      "DifferencePercent": 0.07419898819561552
+      "Difference": 72,
+      "DifferencePercent": 0.08094435075885328
     },
     {
       "Name": "Pest",
@@ -1408,10 +1490,11 @@
         74352,
         74311,
         74306,
-        74309
+        74309,
+        74296
       ],
-      "Difference": -80,
-      "DifferencePercent": -0.10754278186290984
+      "Difference": -93,
+      "DifferencePercent": -0.1250184839156327
     },
     {
       "Name": "Somogy",
@@ -1425,10 +1508,11 @@
         61533,
         61509,
         61500,
-        61482
+        61482,
+        61454
       ],
-      "Difference": -133,
-      "DifferencePercent": -0.21585652844274933
+      "Difference": -161,
+      "DifferencePercent": -0.2613000081149071
     },
     {
       "Name": "Somogy",
@@ -1442,10 +1526,11 @@
         59530,
         59522,
         59494,
-        59459
+        59459,
+        59445
       ],
-      "Difference": -153,
-      "DifferencePercent": -0.2566597329396766
+      "Difference": -167,
+      "DifferencePercent": -0.2801449372609542
     },
     {
       "Name": "Somogy",
@@ -1459,10 +1544,11 @@
         62407,
         62387,
         62386,
-        62363
+        62363,
+        62347
       ],
-      "Difference": -98,
-      "DifferencePercent": -0.15689790429227837
+      "Difference": -114,
+      "DifferencePercent": -0.1825138886665279
     },
     {
       "Name": "Somogy",
@@ -1476,10 +1562,11 @@
         64547,
         64521,
         64489,
-        64472
+        64472,
+        64452
       ],
-      "Difference": -113,
-      "DifferencePercent": -0.17496322675543857
+      "Difference": -133,
+      "DifferencePercent": -0.20593016954401178
     },
     {
       "Name": "Szabolcs-Szatmár-Bereg",
@@ -1493,10 +1580,11 @@
         73924,
         73885,
         73857,
-        73832
+        73832,
+        73821
       ],
-      "Difference": -215,
-      "DifferencePercent": -0.29035612516374737
+      "Difference": -226,
+      "DifferencePercent": -0.30521155482328793
     },
     {
       "Name": "Szabolcs-Szatmár-Bereg",
@@ -1510,10 +1598,11 @@
         71575,
         71574,
         71563,
-        71549
+        71549,
+        71534
       ],
-      "Difference": -71,
-      "DifferencePercent": -0.09913432002234013
+      "Difference": -86,
+      "DifferencePercent": -0.12007819044959508
     },
     {
       "Name": "Szabolcs-Szatmár-Bereg",
@@ -1527,10 +1616,11 @@
         77766,
         77737,
         77712,
-        77664
+        77664,
+        77640
       ],
-      "Difference": -239,
-      "DifferencePercent": -0.306791779520686
+      "Difference": -263,
+      "DifferencePercent": -0.3375993222340603
     },
     {
       "Name": "Szabolcs-Szatmár-Bereg",
@@ -1544,10 +1634,11 @@
         72949,
         72925,
         72890,
-        72851
+        72851,
+        72863
       ],
-      "Difference": -241,
-      "DifferencePercent": -0.32972144694357797
+      "Difference": -229,
+      "DifferencePercent": -0.31330378153559896
     },
     {
       "Name": "Szabolcs-Szatmár-Bereg",
@@ -1561,10 +1652,11 @@
         73325,
         73282,
         73258,
-        73235
+        73235,
+        73203
       ],
-      "Difference": -190,
-      "DifferencePercent": -0.2587674497786857
+      "Difference": -222,
+      "DifferencePercent": -0.3023493360572012
     },
     {
       "Name": "Szabolcs-Szatmár-Bereg",
@@ -1578,10 +1670,11 @@
         71893,
         71859,
         71834,
-        71816
+        71816,
+        71785
       ],
-      "Difference": -186,
-      "DifferencePercent": -0.25832615760673316
+      "Difference": -217,
+      "DifferencePercent": -0.30138051720785536
     },
     {
       "Name": "Tolna",
@@ -1595,10 +1688,11 @@
         59642,
         59612,
         59579,
-        59561
+        59561,
+        59534
       ],
-      "Difference": -159,
-      "DifferencePercent": -0.26624246483590086
+      "Difference": -186,
+      "DifferencePercent": -0.3114534494306765
     },
     {
       "Name": "Tolna",
@@ -1612,10 +1706,11 @@
         58888,
         58857,
         58841,
-        58817
+        58817,
+        58815
       ],
-      "Difference": -150,
-      "DifferencePercent": -0.2543795682330795
+      "Difference": -152,
+      "DifferencePercent": -0.2577712958095206
     },
     {
       "Name": "Tolna",
@@ -1629,10 +1724,11 @@
         59088,
         59065,
         59025,
-        58994
+        58994,
+        58978
       ],
-      "Difference": -176,
-      "DifferencePercent": -0.2974480310968396
+      "Difference": -192,
+      "DifferencePercent": -0.3244887611965523
     },
     {
       "Name": "Vas",
@@ -1646,10 +1742,11 @@
         68462,
         68429,
         68442,
-        68440
+        68440,
+        68439
       ],
-      "Difference": -111,
-      "DifferencePercent": -0.16192323963180696
+      "Difference": -112,
+      "DifferencePercent": -0.16338200755641785
     },
     {
       "Name": "Vas",
@@ -1663,10 +1760,11 @@
         68182,
         68203,
         68181,
-        68182
+        68182,
+        68181
       ],
-      "Difference": -156,
-      "DifferencePercent": -0.228277093271679
+      "Difference": -157,
+      "DifferencePercent": -0.2297404079721385
     },
     {
       "Name": "Vas",
@@ -1680,10 +1778,11 @@
         66406,
         66394,
         66383,
-        66377
+        66377,
+        66380
       ],
-      "Difference": -104,
-      "DifferencePercent": -0.15643567335028052
+      "Difference": -101,
+      "DifferencePercent": -0.15192310584979166
     },
     {
       "Name": "Veszprém",
@@ -1697,10 +1796,11 @@
         70496,
         70469,
         70447,
-        70431
+        70431,
+        70425
       ],
-      "Difference": -153,
-      "DifferencePercent": -0.21676300578034682
+      "Difference": -159,
+      "DifferencePercent": -0.22526351581094867
     },
     {
       "Name": "Veszprém",
@@ -1714,10 +1814,11 @@
         73820,
         73790,
         73777,
-        73757
+        73757,
+        73751
       ],
-      "Difference": -89,
-      "DifferencePercent": -0.12052108441892587
+      "Difference": -95,
+      "DifferencePercent": -0.12864610134604448
     },
     {
       "Name": "Veszprém",
@@ -1731,10 +1832,11 @@
         67664,
         67656,
         67654,
-        67647
+        67647,
+        67629
       ],
-      "Difference": -97,
-      "DifferencePercent": -0.14318611242324045
+      "Difference": -115,
+      "DifferencePercent": -0.16975673122342938
     },
     {
       "Name": "Veszprém",
@@ -1748,10 +1850,11 @@
         68577,
         68564,
         68551,
-        68521
+        68521,
+        68501
       ],
-      "Difference": -162,
-      "DifferencePercent": -0.23586622599478765
+      "Difference": -182,
+      "DifferencePercent": -0.264985513154638
     },
     {
       "Name": "Zala",
@@ -1765,10 +1868,11 @@
         75151,
         75111,
         75087,
-        75078
+        75078,
+        75072
       ],
-      "Difference": -190,
-      "DifferencePercent": -0.25243131211138864
+      "Difference": -196,
+      "DifferencePercent": -0.26040282723069563
     },
     {
       "Name": "Zala",
@@ -1782,10 +1886,11 @@
         73911,
         73891,
         73874,
-        73854
+        73854,
+        73846
       ],
-      "Difference": -80,
-      "DifferencePercent": -0.10820461492682663
+      "Difference": -88,
+      "DifferencePercent": -0.1190250764195093
     },
     {
       "Name": "Zala",
@@ -1799,10 +1904,11 @@
         72047,
         72028,
         71998,
-        72000
+        72000,
+        71974
       ],
-      "Difference": -195,
-      "DifferencePercent": -0.2701018076044047
+      "Difference": -221,
+      "DifferencePercent": -0.3061153819516587
     }
   ],
   "MaxIncrease": {
@@ -1817,10 +1923,11 @@
       94189,
       94172,
       94191,
-      94214
+      94214,
+      94211
     ],
-    "Difference": 140,
-    "DifferencePercent": 0.1488190148181219
+    "Difference": 137,
+    "DifferencePercent": 0.14563003592916215
   },
   "MaxIncreasePercent": {
     "Name": "Pest",
@@ -1834,10 +1941,11 @@
       94189,
       94172,
       94191,
-      94214
+      94214,
+      94211
     ],
-    "Difference": 140,
-    "DifferencePercent": 0.1488190148181219
+    "Difference": 137,
+    "DifferencePercent": 0.14563003592916215
   },
   "MaxDecrease": {
     "Name": "Heves",
@@ -1851,10 +1959,11 @@
       77164,
       77118,
       77077,
-      77025
+      77025,
+      76987
     ],
-    "Difference": -274,
-    "DifferencePercent": -0.35446771627058565
+    "Difference": -312,
+    "DifferencePercent": -0.4036274725416888
   },
   "MaxDecreasePercent": {
     "Name": "Budapest",
@@ -1868,9 +1977,10 @@
       59276,
       59228,
       59209,
-      59203
+      59203,
+      59171
     ],
-    "Difference": -261,
-    "DifferencePercent": -0.43892102784878245
+    "Difference": -293,
+    "DifferencePercent": -0.4927351002287098
   }
 }
