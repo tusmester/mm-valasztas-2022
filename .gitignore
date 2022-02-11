@@ -351,3 +351,4 @@ MigrationBackup/
 /src/LakossagStat.WebApp/wwwroot/data/lakossag-data.json
 /src/LakossagStat.WebApp/App_Data/Archive
 /src/LakossagStat.WebApp/wwwroot/data/lakossag-data-all.json
+/src/LakossagStat.Console/App_Data

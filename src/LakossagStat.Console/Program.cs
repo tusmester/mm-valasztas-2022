@@ -67,7 +67,7 @@ namespace LakossagStat.Console
                     .AddLogging(logging =>
                     {
                         logging.AddConsole();
-                        logging.AddFile("Logs/mm-voksturizmus-{Date}.txt", LogLevel.Trace);
+                        logging.AddFile("./App_Data/Logs/mm-voksturizmus-{Date}.txt", LogLevel.Trace);
                     })
                     // configure feature-specific options
                     .Configure<DataLoaderOptions>(hb.Configuration.GetSection("DataLoader"))
