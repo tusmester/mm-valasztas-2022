@@ -10,7 +10,8 @@ namespace LakossagStat.Data.Loaders
 {
     public class HtmlDataLoader : UrlDataLoader
     {
-        private const string LinkPattern = "<a href=\"(?<url>[^\\\"]+)\" target=\"_blank\" class=\"nvi-document-list-item\">";
+        private const string LinkPattern = "<a href=\"(?<url>[^\\\"]+)\" target=\"_blank\" class=\"nvi-document-list-item\">" +
+                                           "((?!<a ).)+Központi névjegyzékben szereplő választópolgárok száma((?!<a ).)+</a>";
 
         private readonly IHttpClientFactory _httpClientFactory;
 
